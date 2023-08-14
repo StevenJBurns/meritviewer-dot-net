@@ -1,0 +1,1 @@
+namespace MeritViewer.Domain.Entity;public class Merit  {  public string Name { get; set; }  public Empires Empire { get; set; }  private Byte Level { get; set; }}

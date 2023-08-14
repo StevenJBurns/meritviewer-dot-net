@@ -1,0 +1,1 @@
+using MeritViewer.Domain.Enum;namespace MeritViewer.Domain.Entity;public class Group{  public string? Name { get; set; }  public GroupType Type { get; set; }  public string? Description { get; set; }  public List<Merit>? Merits { get; set; }}

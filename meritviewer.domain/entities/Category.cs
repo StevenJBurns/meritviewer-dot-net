@@ -1,0 +1,1 @@
+namespace MeritViewer.Domain.Entity;public class Category{  public String? Name { get; set; }  public List<Group>? Groups { get; set; }  public Category()  {  }}
