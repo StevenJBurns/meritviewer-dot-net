@@ -4,8 +4,6 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
-    <RootNamespace>MeritViewer.Domain</RootNamespace>
   </PropertyGroup>
 
 </Project>

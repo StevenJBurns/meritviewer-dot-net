@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meritviewer.silverlight", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meritviewer.wpf", "meritviewer.wpf\meritviewer.wpf.csproj", "{0552F4F4-054C-4AFE-8B77-D574104E139F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B33C4FC1-1E4C-4058-A82A-5C629F691383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meritviewer.application", "meritviewer.application\meritviewer.application.csproj", "{441B915A-E7FF-4FCE-B4DF-C0A335E24DA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,9 +39,18 @@ Global
 		{0552F4F4-054C-4AFE-8B77-D574104E139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0552F4F4-054C-4AFE-8B77-D574104E139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0552F4F4-054C-4AFE-8B77-D574104E139F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441B915A-E7FF-4FCE-B4DF-C0A335E24DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441B915A-E7FF-4FCE-B4DF-C0A335E24DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441B915A-E7FF-4FCE-B4DF-C0A335E24DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441B915A-E7FF-4FCE-B4DF-C0A335E24DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EDA521C-9160-468A-B661-20CE03528A52} = {B33C4FC1-1E4C-4058-A82A-5C629F691383}
+		{7C6971DC-DA82-4420-80CE-C7F5846C6D93} = {B33C4FC1-1E4C-4058-A82A-5C629F691383}
+		{0552F4F4-054C-4AFE-8B77-D574104E139F} = {B33C4FC1-1E4C-4058-A82A-5C629F691383}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
