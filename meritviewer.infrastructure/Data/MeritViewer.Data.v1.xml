@@ -1,0 +1,2388 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MeritData xmlns="http://tempuri.org/MeritData.xsd">
+	<tblEmpire>
+		<EmpireID>ALL</EmpireID>
+		<EmpireName>All Empires</EmpireName>
+	</tblEmpire>
+	<tblEmpire>
+		<EmpireID>NC</EmpireID>
+		<EmpireName>New Conglomerate</EmpireName>
+	</tblEmpire>
+	<tblEmpire>
+		<EmpireID>TR</EmpireID>
+		<EmpireName>Terran Republic</EmpireName>
+	</tblEmpire>
+	<tblEmpire>
+		<EmpireID>VS</EmpireID>
+		<EmpireName>Vanu Sovereignty</EmpireName>
+	</tblEmpire>
+	<tblGroups>
+		<GroupID>AirCombatAce</GroupID>
+		<GroupName>Air Combat Ace</GroupName>
+		<Category>Vehicular</Category>
+		<GroupDescription>Shoot stuff down in air</GroupDescription>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>AirDefender</GroupID>
+		<GroupName>Air Defender</GroupName>
+		<Category>Expedition</Category>
+		<GroupDescription>Shoot stuff down on ground</GroupDescription>
+	</tblGroups>
+	<tblMerits>
+		<MeritID>AdvancedBFR</MeritID>
+		<MeritName>Advanced BFR</MeritName>
+		<Level>1</Level>
+		<Group>AdvancedBFR</Group>
+		<KA>100</KA>
+		<Streak>15</Streak>
+		<Empire>ALL</Empire>
+		<MeritImage>MeritViewer.AdvancedBFR.bmp</MeritImage>
+	</tblMerits>
+	<tblGroups>
+		<GroupID>AMS</GroupID>
+		<GroupName>AMS Support</GroupName>
+		<Category>Support</Category>
+		<GroupDescription>Mr Helper</GroupDescription>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>AnnualTermOfService</GroupID>
+		<GroupName>Annual Term of Service</GroupName>
+		<Category>EmpireDefense</Category>
+		<GroupDescription>I didn't quit yet</GroupDescription>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>AntiArmor</GroupID>
+		<GroupName>Anti-Armor</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>BasicWeapons</GroupID>
+		<GroupName>Basic Weapons</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>BFRBuster</GroupID>
+		<GroupName>BFR Buster</GroupName>
+		<Category>Expedition</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>Bombardier</GroupID>
+		<GroupName>Bombardier</GroupName>
+		<Category>Vehicular</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>BomberAce</GroupID>
+		<GroupName>Bomber Ace</GroupName>
+		<Category>Vehicular</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>CavalryDriver</GroupID>
+		<GroupName>Cavalry Driver</GroupName>
+		<Category>Vehicular</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>CavalryPilot</GroupID>
+		<GroupName>Cavalry Pilot</GroupName>
+		<Category>Vehicular</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>CombatMedic</GroupID>
+		<GroupName>Combat Medic</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>CombatRes</GroupID>
+		<GroupName>Combat Resuscitation</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>DriverGunnery</GroupID>
+		<GroupName>Driver Gunnery</GroupName>
+		<Category>Vehicular</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>Engineering</GroupID>
+		<GroupName>Engineering</GroupName>
+		<Category>Expedition</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>EquipmentSupport</GroupID>
+		<GroupName>Equipment Support</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>GalaxySupport</GroupID>
+		<GroupName>Galaxy Support Pilot</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>Grenadier</GroupID>
+		<GroupName>Grenadier</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>GroundGunner</GroupID>
+		<GroupName>Ground Gunner</GroupName>
+		<Category>Vehicular</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>Hacking</GroupID>
+		<GroupName>Hacking Support</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>HandToHand</GroupID>
+		<GroupName>Hand-to-Hand</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>HeavyWeapons</GroupID>
+		<GroupName>Heavy Weapons</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>InfantryArmor</GroupID>
+		<GroupName>Infantry Armor Support</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>LockerHacker</GroupID>
+		<GroupName>Locker Hacker</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>LodestarSupport</GroupID>
+		<GroupName>Lodestar Support</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>MAXB</GroupID>
+		<GroupName>MAX Buster</GroupName>
+		<Category>Expedition</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>MAXO</GroupID>
+		<GroupName>MAX Operator</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>ResMedic</GroupID>
+		<GroupName>Resuscitation Medic</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>Rifleman</GroupID>
+		<GroupName>Rifleman</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>RouterSupport</GroupID>
+		<GroupName>Router Support</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>Saboteur</GroupID>
+		<GroupName>Saboteur</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>Scavenger</GroupID>
+		<GroupName>Scavenger</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>Sniping</GroupID>
+		<GroupName>Sniping</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>SpecialAssault</GroupID>
+		<GroupName>Special Assault</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>SupplyBlockade</GroupID>
+		<GroupName>Supply Blockade</GroupName>
+		<Category>Expedition</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>TankBuster</GroupID>
+		<GroupName>Tank Buster</GroupName>
+		<Category>Expedition</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>TelepadDeployment</GroupID>
+		<GroupName>Telepad Deployment</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>TinyRobotics</GroupID>
+		<GroupName>Tiny Robotics</GroupName>
+		<Category>Support</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>TransportationCitation</GroupID>
+		<GroupName>TransportationCitation</GroupName>
+		<Category>Vehicular</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>TransportBlockade</GroupID>
+		<GroupName>Transport Blockade</GroupName>
+		<Category>Expedition</Category>
+	</tblGroups>
+	<tblGroups>
+		<GroupID>TurretGunner</GroupID>
+		<GroupName>Turret Gunner</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblCategory>
+		<CategoryID>Vehicular</CategoryID>
+		<CategoryName>Vehicular</CategoryName>
+		<CategoryName>Vehicular</CategoryName>
+	</tblCategory>
+	<tblCategory>
+		<CategoryID>Weaponry</CategoryID>
+		<CategoryName>Weaponry</CategoryName>
+		<CategoryName>Weaponry</CategoryName>
+	</tblCategory>
+	<tblCategory>
+		<CategoryID>Support</CategoryID>
+		<CategoryName>Support</CategoryName>
+		<CategoryName>Support</CategoryName>
+	</tblCategory>
+	<tblCategory>
+		<CategoryID>EmpireDefense</CategoryID>
+		<CategoryName>Empire Defense</CategoryName>
+		<CategoryName>Empire Defense</CategoryName>
+	</tblCategory>
+	<tblCategory>
+		<CategoryID>Exclusive</CategoryID>
+		<CategoryName>Exclusive</CategoryName>
+		<CategoryName>Exclusive</CategoryName>
+	</tblCategory>
+	<tblMerits>
+		<MeritID>TinyRoboticsQual</MeritID>
+		<MeritName>Tiny Robotics Qualification</MeritName>
+		<Level>1</Level>
+		<Group>TinyRobotics</Group>
+		<Empire>ALL</Empire>
+		<KA>15</KA>
+		<Streak>0</Streak>
+		<MeritImage>MeritViewer.TinyRoboticsQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TinyRoboticsBronze</MeritID>
+		<MeritName>Tiny Robotics Bronze</MeritName>
+		<Level>2</Level>
+		<Group>TinyRobotics</Group>
+		<Empire>ALL</Empire>
+		<KA>35</KA>
+		<Streak>0</Streak>
+		<MeritImage>MeritViewer.TinyRoboticsBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TinyRoboticsSilver</MeritID>
+		<MeritName>Tiny Robotics Silver</MeritName>
+		<Level>3</Level>
+		<Group>TinyRobotics</Group>
+		<Empire>ALL</Empire>
+		<KA>75</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.TinyRoboticsSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TinyRoboticsGold</MeritID>
+		<MeritName>Tiny Robotics Gold</MeritName>
+		<Level>4</Level>
+		<Group>TinyRobotics</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.TinyRoboticsGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TinyRoboticsPlatinum</MeritID>
+		<MeritName>Tiny Robotics Platinum</MeritName>
+		<Level>5</Level>
+		<Group>TinyRobotics</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.TinyRoboticsPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirDefenderQual</MeritID>
+		<MeritName>Air Defender Qualification</MeritName>
+		<Level>1</Level>
+		<Group>AirDefender</Group>
+		<Empire>ALL</Empire>
+		<KA>350</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.AirDefenderQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirDefenderBronze</MeritID>
+		<MeritName>Air Defender Bronze</MeritName>
+		<Level>2</Level>
+		<Group>AirDefender</Group>
+		<Empire>ALL</Empire>
+		<KA>700</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.AirDefenderBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirDefenderSilver</MeritID>
+		<MeritName>Air Defender Silver</MeritName>
+		<Level>3</Level>
+		<Group>AirDefender</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.AirDefenderSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirDefenderGold</MeritID>
+		<MeritName>Air Defender Gold</MeritName>
+		<Level>4</Level>
+		<Group>AirDefender</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.AirDefenderGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirDefenderPlatinum</MeritID>
+		<MeritName>Air Defender Platinum</MeritName>
+		<Level>5</Level>
+		<Group>AirDefender</Group>
+		<Empire>ALL</Empire>
+		<KA>3000</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.AirDefenderPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TransportationCitationI</MeritID>
+		<MeritName>Transportation Citation I</MeritName>
+		<Level>1</Level>
+		<Group>TransportationCitation</Group>
+		<Empire>ALL</Empire>
+		<KA>50</KA>
+		<Streak>0</Streak>
+		<MeritImage>MeritViewer.TransportationCitationI.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TransportationCitationII</MeritID>
+		<MeritName>Transportation Citation II</MeritName>
+		<Level>2</Level>
+		<Group>TransportationCitation</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.TransportationCitationII.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TransportationCitationIII</MeritID>
+		<MeritName>Transportation Citation III</MeritName>
+		<Level>3</Level>
+		<Group>TransportationCitation</Group>
+		<Empire>ALL</Empire>
+		<KA>1000</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.TransportationCitationIII.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BFRBusterQual</MeritID>
+		<MeritName>BFR Buster Qualification</MeritName>
+		<Level>1</Level>
+		<Group>BFRBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>35</KA>
+		<Streak>0</Streak>
+		<MeritImage>MeritViewer.BFRBusterQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BFRBusterBronze</MeritID>
+		<MeritName>BFR Buster Bronze</MeritName>
+		<Level>2</Level>
+		<Group>BFRBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.BFRBusterBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BFRBusterSilver</MeritID>
+		<MeritName>BFR Buster Silver</MeritName>
+		<Level>3</Level>
+		<Group>BFRBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.BFRBusterSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BFRBusterGold</MeritID>
+		<MeritName>BFR Buster Gold</MeritName>
+		<Level>4</Level>
+		<Group>BFRBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>350</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.BFRBusterGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BFRBusterPlatinum</MeritID>
+		<MeritName>BFR Buster Platinum</MeritName>
+		<Level>5</Level>
+		<Group>BFRBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.BFRBusterPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirCombatAceQual</MeritID>
+		<MeritName>Air Combat Ace Qualification</MeritName>
+		<Level>1</Level>
+		<Group>AirCombatAce</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.AirCombatAceQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirCombatAceBronze</MeritID>
+		<MeritName>Air Combat Ace Bronze</MeritName>
+		<Level>2</Level>
+		<Group>AirCombatAce</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.AirCombatAceBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirCombatAceSilver</MeritID>
+		<MeritName>Air Combat Ace Silver</MeritName>
+		<Level>3</Level>
+		<Group>AirCombatAce</Group>
+		<Empire>ALL</Empire>
+		<KA>800</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.AirCombatAceSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirCombatAceGold</MeritID>
+		<MeritName>Air Combat Ace Gold</MeritName>
+		<Level>4</Level>
+		<Group>AirCombatAce</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.AirCombatAceGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AirCombatAcePlatinum</MeritID>
+		<MeritName>Air Combat Ace Platinum</MeritName>
+		<Level>5</Level>
+		<Group>AirCombatAce</Group>
+		<Empire>ALL</Empire>
+		<KA>1700</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.AirCombatAcePlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AMSQual</MeritID>
+		<MeritName>AMS Support Qualification</MeritName>
+		<Level>1</Level>
+		<Group>AMS</Group>
+		<Empire>ALL</Empire>
+		<KA>300</KA>
+		<MeritImage>MeritViewer.AMSSupportQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AMSBronze</MeritID>
+		<MeritName>AMS Support Bronze</MeritName>
+		<Level>2</Level>
+		<Group>AMS</Group>
+		<Empire>ALL</Empire>
+		<KA>600</KA>
+		<MeritImage>MeritViewer.AMSSupportBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AMSSilver</MeritID>
+		<MeritName>AMS Support Silver</MeritName>
+		<Level>3</Level>
+		<Group>AMS</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<MeritImage>MeritViewer.AMSSupportSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AMSGold</MeritID>
+		<MeritName>AMS Support Gold</MeritName>
+		<Level>4</Level>
+		<Group>AMS</Group>
+		<Empire>ALL</Empire>
+		<KA>2500</KA>
+		<MeritImage>MeritViewer.AMSSupportGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AMSPlatinum</MeritID>
+		<MeritName>AMS Support Platinum</MeritName>
+		<Level>5</Level>
+		<Group>AMS</Group>
+		<Empire>ALL</Empire>
+		<KA>5000</KA>
+		<MeritImage>MeritViewer.AMSSupportPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AnnualService1NC</MeritID>
+		<MeritName>Annual Term of Service (1-Year)</MeritName>
+		<Level>1</Level>
+		<Group>AnnualTermOfService</Group>
+		<Empire>NC</Empire>
+		<MeritImage>MeritViewer.AnnualTermOfService1NC.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AnnualService2NC</MeritID>
+		<MeritName>Annual Term of Service (2-Year)</MeritName>
+		<Level>2</Level>
+		<Group>AnnualTermOfService</Group>
+		<Empire>NC</Empire>
+		<MeritImage>MeritViewer.AnnualTermOfService2NC.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AnnualService1TR</MeritID>
+		<MeritName>Annual Term of Service (1-Year)</MeritName>
+		<Level>1</Level>
+		<Group>AnnualTermOfService</Group>
+		<Empire>TR</Empire>
+		<MeritImage>MeritViewer.AnnualTermOfService1TR.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AnnualService2TR</MeritID>
+		<MeritName>Annual Term of Service (2-Year)</MeritName>
+		<Level>2</Level>
+		<Group>AnnualTermOfService</Group>
+		<Empire>TR</Empire>
+		<MeritImage>MeritViewer.AnnualTermOfService2TR.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AnnualService1VS</MeritID>
+		<MeritName>Annual Term of Service (1-Year)</MeritName>
+		<Level>1</Level>
+		<Group>AnnualTermOfService</Group>
+		<Empire>VS</Empire>
+		<MeritImage>MeritViewer.AnnualTermOfService1VS.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AnnualService2VS</MeritID>
+		<MeritName>Annual Term of Service (2-Year)</MeritName>
+		<Level>2</Level>
+		<Group>AnnualTermOfService</Group>
+		<Empire>VS</Empire>
+		<MeritImage>MeritViewer.AnnualTermOfService2VS.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AntiArmorQual</MeritID>
+		<MeritName>Anti-Armor Qualification</MeritName>
+		<Level>1</Level>
+		<Group>AntiArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.AntiArmorQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AntiArmorBronze</MeritID>
+		<MeritName>Anti-Armor Bronze</MeritName>
+		<Level>2</Level>
+		<Group>AntiArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.AntiArmorBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AntiArmorSilver</MeritID>
+		<MeritName>Anti-Armor Silver</MeritName>
+		<Level>3</Level>
+		<Group>AntiArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>700</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.AntiArmorSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AntiArmorGold</MeritID>
+		<MeritName>Anti-Armor Gold</MeritName>
+		<Level>4</Level>
+		<Group>AntiArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.AntiArmorGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>AntiArmorplatinum</MeritID>
+		<MeritName>Anti-Armor Platinum</MeritName>
+		<Level>5</Level>
+		<Group>AntiArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.AntiArmorPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblCategory>
+		<CategoryID>Expedition</CategoryID>
+		<CategoryName>Expedition</CategoryName>
+		<CategoryName>Expedition</CategoryName>
+	</tblCategory>
+	<tblGroups>
+		<GroupID>AdvancedBFR</GroupID>
+		<GroupName>Advanced BFR</GroupName>
+		<Category>Vehicular</Category>
+		<GroupDescription>Advanced gheyness</GroupDescription>
+	</tblGroups>
+	<tblMerits>
+		<MeritID>MAXBusterBronze</MeritID>
+		<MeritName>MAX Buster Bronze</MeritName>
+		<Level>1</Level>
+		<Group>MAXB</Group>
+		<Empire>ALL</Empire>
+		<KA>250</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.MAXBusterBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>MAXBusterSilver</MeritID>
+		<MeritName>MAX Buster Silver</MeritName>
+		<Level>2</Level>
+		<Group>MAXB</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.MAXBusterSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>MAXBusterGold</MeritID>
+		<MeritName>MAX Buster Gold</MeritName>
+		<Level>3</Level>
+		<Group>MAXB</Group>
+		<Empire>ALL</Empire>
+		<KA>600</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.MAXBusterGold.bmp</MeritImage>
+	</tblMerits>
+	<tblGroups>
+		<GroupID>WeaponsCitation</GroupID>
+		<GroupName>Weapon Citations</GroupName>
+		<Category>Weaponry</Category>
+	</tblGroups>
+	<tblMerits>
+		<MeritID>TurretGunnerQual</MeritID>
+		<MeritName>Turret Gunner Qualification</MeritName>
+		<Level>1</Level>
+		<Group>TurretGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>50</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.TurretGunnerQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TurretGunnerBronze</MeritID>
+		<MeritName>Turret Gunner Bronze</MeritName>
+		<Level>2</Level>
+		<Group>TurretGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.TurretGunnerBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TurretGunnerSilver</MeritID>
+		<MeritName>Turret Gunner Silver</MeritName>
+		<Level>3</Level>
+		<Group>TurretGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.TurretGunnerSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TurretGunnerGold</MeritID>
+		<MeritName>Turret Gunner Gold</MeritName>
+		<Level>4</Level>
+		<Group>TurretGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>350</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.TurretGunnerGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TurretGunnerPlatinum</MeritID>
+		<MeritName>Turret Gunner Platinum</MeritName>
+		<Level>5</Level>
+		<Group>TurretGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.TurretGunnerPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TransportBlockadeQual</MeritID>
+		<MeritName>Transport Blockade Qualification</MeritName>
+		<Level>1</Level>
+		<Group>TransportBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>50</KA>
+		<MeritImage>MeritViewer.TransportBlockadeQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TransportBlockadeBronze</MeritID>
+		<MeritName>Transport Blockade Bronze</MeritName>
+		<Level>2</Level>
+		<Group>TransportBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<MeritImage>MeritViewer.TransportBlockadeBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TransportBlockadeSilver</MeritID>
+		<MeritName>Transport Blockade Silver</MeritName>
+		<Level>3</Level>
+		<Group>TransportBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>150</KA>
+		<MeritImage>MeritViewer.TransportBlockadeSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TransportBlockadeGold</MeritID>
+		<MeritName>Transport Blockade Gold</MeritName>
+		<Level>4</Level>
+		<Group>TransportBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<MeritImage>MeritViewer.TransportBlockadeGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TransportBlockadePlatinum</MeritID>
+		<MeritName>Transport Blockade Platinum</MeritName>
+		<Level>5</Level>
+		<Group>TransportBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>250</KA>
+		<MeritImage>MeritViewer.TransportBlockadePlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>WeaponsCitationBronze</MeritID>
+		<MeritName>Weapons Citation Qualification</MeritName>
+		<Level>1</Level>
+		<Group>WeaponsCitation</Group>
+		<Empire>ALL</Empire>
+		<MeritImage>MeritViewer.WeaponsCitationQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>WeaponsCitationSilver</MeritID>
+		<MeritName>Weapons Citation Bronze</MeritName>
+		<Level>2</Level>
+		<Group>WeaponsCitation</Group>
+		<Empire>ALL</Empire>
+		<MeritImage>MeritViewer.WeaponsCitationBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>WeaponsCitationGold</MeritID>
+		<MeritName>Weapons Citation Silver</MeritName>
+		<Level>3</Level>
+		<Group>WeaponsCitation</Group>
+		<Empire>ALL</Empire>
+		<MeritImage>MeritViewer.WeaponsCitationSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TelepadQual</MeritID>
+		<MeritName>Telepad Deployment Qualification</MeritName>
+		<Level>1</Level>
+		<Group>TelepadDeployment</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<MeritImage>MeritViewer.TelepadDeploymentQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TelepadBronze</MeritID>
+		<MeritName>Telepad Deployment Bronze</MeritName>
+		<Level>2</Level>
+		<Group>TelepadDeployment</Group>
+		<Empire>ALL</Empire>
+		<KA>250</KA>
+		<MeritImage>MeritViewer.TelepadDeploymentBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TelepadSilver</MeritID>
+		<MeritName>Telepad Deployment Silver</MeritName>
+		<Level>3</Level>
+		<Group>TelepadDeployment</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<MeritImage>MeritViewer.TelepadDeploymentSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TelepadGold</MeritID>
+		<MeritName>Telepad Deployment Gold</MeritName>
+		<Level>4</Level>
+		<Group>TelepadDeployment</Group>
+		<Empire>ALL</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.TelepadDeploymentGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TelepadPlatinum</MeritID>
+		<MeritName>Telepad Deployment Platinum</MeritName>
+		<Level>5</Level>
+		<Group>TelepadDeployment</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<MeritImage>MeritViewer.TelepadDeploymentPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TankBusterQual</MeritID>
+		<MeritName>Tank Buster Qualification</MeritName>
+		<Level>1</Level>
+		<Group>TankBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>50</KA>
+		<MeritImage>MeritViewer.TankBusterQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TankBusterBronze</MeritID>
+		<MeritName>Tank Buster Bronze</MeritName>
+		<Level>2</Level>
+		<Group>TankBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>125</KA>
+		<MeritImage>MeritViewer.TankBusterBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TankBusterSilver</MeritID>
+		<MeritName>Tank Buster Silver</MeritName>
+		<Level>3</Level>
+		<Group>TankBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>225</KA>
+		<MeritImage>MeritViewer.TankBusterSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TankBusterGold</MeritID>
+		<MeritName>Tank Buster Gold</MeritName>
+		<Level>4</Level>
+		<Group>TankBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>350</KA>
+		<MeritImage>MeritViewer.TankBusterGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>TankBusterPlatinum</MeritID>
+		<MeritName>Tank Buster Platinum</MeritName>
+		<Level>5</Level>
+		<Group>TankBuster</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<MeritImage>MeritViewer.TankBusterPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ScavengerBronzeNC</MeritID>
+		<MeritName>Scavenger Bronze</MeritName>
+		<Level>1</Level>
+		<Group>Scavenger</Group>
+		<Empire>NC</Empire>
+		<KA>15</KA>
+		<MeritImage>MeritViewer.ScavengerBronzeNC.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ScavengerBronzeTR</MeritID>
+		<MeritName>Scavenger Bronze</MeritName>
+		<Level>1</Level>
+		<Group>Scavenger</Group>
+		<Empire>TR</Empire>
+		<KA>15</KA>
+		<MeritImage>MeritViewer.ScavengerBronzeTR.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ScavengerBronzeVS</MeritID>
+		<MeritName>Scavenger Bronze</MeritName>
+		<Level>1</Level>
+		<Group>Scavenger</Group>
+		<Empire>VS</Empire>
+		<KA>15</KA>
+		<MeritImage>MeritViewer.ScavengerBronzeVS.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ScavengerSilverNC</MeritID>
+		<MeritName>Scavenger Silver</MeritName>
+		<Level>2</Level>
+		<Group>Scavenger</Group>
+		<Empire>NC</Empire>
+		<KA>100</KA>
+		<MeritImage>MeritViewer.ScavengerSilverNC.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ScavengerSilverTR</MeritID>
+		<MeritName>Scavenger Silver</MeritName>
+		<Level>2</Level>
+		<Group>Scavenger</Group>
+		<Empire>TR</Empire>
+		<KA>100</KA>
+		<MeritImage>MeritViewer.ScavengerSilverTR.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ScavengerSilverVS</MeritID>
+		<MeritName>Scavenger Silver</MeritName>
+		<Level>2</Level>
+		<Group>Scavenger</Group>
+		<Empire>VS</Empire>
+		<KA>100</KA>
+		<MeritImage>MeritViewer.ScavengerSilverVS.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ScavengerGoldNC</MeritID>
+		<MeritName>Scavenger Gold</MeritName>
+		<Level>3</Level>
+		<Group>Scavenger</Group>
+		<Empire>NC</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.ScavengerGoldNC.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ScavengerGoldTR</MeritID>
+		<MeritName>Scavenger Gold </MeritName>
+		<Level>3</Level>
+		<Group>Scavenger</Group>
+		<Empire>TR</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.ScavengerGoldTR.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ScavengerGoldVS</MeritID>
+		<MeritName>Scavenger Gold</MeritName>
+		<Level>3</Level>
+		<Group>Scavenger</Group>
+		<Empire>VS</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.ScavengerGoldVS.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HeavyInfantryGeneralistCitation</MeritID>
+		<MeritName>Heavy Infantry Generalist Citation</MeritName>
+		<Level>1</Level>
+		<Group>WeaponsCitation</Group>
+		<Empire>ALL</Empire>
+		<MeritImage>MeritViewer.HeavyInfantryGeneralistCitation.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LightInfantryGeneralistCitation</MeritID>
+		<MeritName>Light Infantry Generalist Citation</MeritName>
+		<Level>1</Level>
+		<Group>WeaponsCitation</Group>
+		<Empire>ALL</Empire>
+		<MeritImage>MeritViewer.LightInfantryGeneralistCitation.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>EngineeringGold</MeritID>
+		<MeritName>Engineering Gold</MeritName>
+		<Level>3</Level>
+		<Group>Engineering</Group>
+		<Empire>ALL</Empire>
+		<KA>1000</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.EngineeringGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>EngineeringSilver</MeritID>
+		<MeritName>Engineering Silver</MeritName>
+		<Level>2</Level>
+		<Group>Engineering</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.EngineeringSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>EngineeringBronze</MeritID>
+		<MeritName>Engineering Bronze</MeritName>
+		<Level>1</Level>
+		<Group>Engineering</Group>
+		<Empire>ALL</Empire>
+		<KA>250</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.EngineeringBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SupplyBlockadeQual</MeritID>
+		<MeritName>Supply Blockade Qualification</MeritName>
+		<Level>1</Level>
+		<Group>SupplyBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>50</KA>
+		<MeritImage>MeritViewer.SupplyBlockadeQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SupplyBlockadeBronze</MeritID>
+		<MeritName>Supply Blockade Bronze</MeritName>
+		<Level>2</Level>
+		<Group>SupplyBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<MeritImage>MeritViewer.SupplyBlockadeBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SupplyBlockadeSilver</MeritID>
+		<MeritName>Supply Blockade Silver</MeritName>
+		<Level>3</Level>
+		<Group>SupplyBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>175</KA>
+		<MeritImage>MeritViewer.SupplyBlockadeSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SupplyBlockadeGold</MeritID>
+		<MeritName>Supply Blockade Gold</MeritName>
+		<Level>4</Level>
+		<Group>SupplyBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>250</KA>
+		<MeritImage>MeritViewer.SupplyBlockadeGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SupplyBlockadePlatinum</MeritID>
+		<MeritName>Supply Blockade Platinum</MeritName>
+		<Level>5</Level>
+		<Group>SupplyBlockade</Group>
+		<Empire>ALL</Empire>
+		<KA>350</KA>
+		<MeritImage>MeritViewer.SupplyBlockadePlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SpecialAssaultQual</MeritID>
+		<MeritName>Special Assault Qualification</MeritName>
+		<Level>1</Level>
+		<Group>SpecialAssault</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.SpecialAssaultQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SpecialAssaultBronze</MeritID>
+		<MeritName>Special Assault Bronze</MeritName>
+		<Level>2</Level>
+		<Group>SpecialAssault</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.SpecialAssaultBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SpecialAssaultSilver</MeritID>
+		<MeritName>Special Assault Silver</MeritName>
+		<Level>3</Level>
+		<Group>SpecialAssault</Group>
+		<Empire>ALL</Empire>
+		<KA>700</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.SpecialAssaultSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SpecialAssaultGold</MeritID>
+		<MeritName>Special Assault Gold</MeritName>
+		<Level>4</Level>
+		<Group>SpecialAssault</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.SpecialAssaultGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SpecialAssaultPlatinum</MeritID>
+		<MeritName>Special Assault Platinum</MeritName>
+		<Level>5</Level>
+		<Group>SpecialAssault</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.SpecialAssaultPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SnipingQual</MeritID>
+		<MeritName>Sniping Qualification</MeritName>
+		<Level>1</Level>
+		<Group>Sniping</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.SnipingQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SnipingBronze</MeritID>
+		<MeritName>Sniping Bronze</MeritName>
+		<Level>2</Level>
+		<Group>Sniping</Group>
+		<Empire>ALL</Empire>
+		<KA>450</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.SnipingBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SnipingSilver</MeritID>
+		<MeritName>Sniping Silver</MeritName>
+		<Level>3</Level>
+		<Group>Sniping</Group>
+		<Empire>ALL</Empire>
+		<KA>750</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.SnipingSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SnipingGold</MeritID>
+		<MeritName>Sniping Gold</MeritName>
+		<Level>4</Level>
+		<Group>Sniping</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.SnipingGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SnipingPlatinum</MeritID>
+		<MeritName>Sniping Platinum</MeritName>
+		<Level>5</Level>
+		<Group>Sniping</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.SnipingPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SaboteurQual</MeritID>
+		<MeritName>Saboteur Qualification</MeritName>
+		<Level>1</Level>
+		<Group>Saboteur</Group>
+		<Empire>ALL</Empire>
+		<KA>150</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.SaboteurQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SaboteurBronze</MeritID>
+		<MeritName>Saboteur Bronze</MeritName>
+		<Level>2</Level>
+		<Group>Saboteur</Group>
+		<Empire>ALL</Empire>
+		<KA>300</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.SaboteurBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SaboteurSilver</MeritID>
+		<MeritName>Saboteur Silver</MeritName>
+		<Level>3</Level>
+		<Group>Saboteur</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.SaboteurSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SaboteurGold</MeritID>
+		<MeritName>Saboteur Gold</MeritName>
+		<Level>4</Level>
+		<Group>Saboteur</Group>
+		<Empire>ALL</Empire>
+		<KA>750</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.SaboteurGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>SaboteurPlatinum</MeritID>
+		<MeritName>Saboteur Platinum</MeritName>
+		<Level>5</Level>
+		<Group>Saboteur</Group>
+		<Empire>ALL</Empire>
+		<KA>1500</KA>
+		<Streak>10</Streak>
+		<MeritImage>MeritViewer.SaboteurPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblGroups>
+		<GroupID>EmpireDefense</GroupID>
+		<GroupName>Empire Defense</GroupName>
+		<Category>EmpireDefense</Category>
+	</tblGroups>
+	<tblMerits>
+		<MeritID>CombatInitiationNC</MeritID>
+		<MeritName>Combat Initiation</MeritName>
+		<Level>1</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>NC</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.CombatInitiationNC.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatInitiationTR</MeritID>
+		<MeritName>Combat Initiation</MeritName>
+		<Level>1</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>TR</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.CombatInitiationTR.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatInitiationVS</MeritID>
+		<MeritName>Combat Initiation</MeritName>
+		<Level>1</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>VS</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.CombatInitiationVS.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>OrderNC</MeritID>
+		<MeritName>Order of the New Conglomerate Defense</MeritName>
+		<Level>5</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>NC</Empire>
+		<KA>10000</KA>
+		<MeritImage>MeritViewer.OrderOfNewConglomerateDefense.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>OrderTR</MeritID>
+		<MeritName>Order of the Terran Republic Defense</MeritName>
+		<Level>5</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>TR</Empire>
+		<KA>10000</KA>
+		<MeritImage>MeritViewer.OrderOfTerranRepublicDefense.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>OrderVS</MeritID>
+		<MeritName>Order of the Vanu Sovereignty Defense</MeritName>
+		<Level>5</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>VS</Empire>
+		<KA>10000</KA>
+		<MeritImage>MeritViewer.OrderOfVanuSovereigntyDefense.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>DistingusihedServiceAwardNC</MeritID>
+		<MeritName>Distingusihed Service Award</MeritName>
+		<Level>4</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>NC</Empire>
+		<KA>7500</KA>
+		<MeritImage>MeritViewer.DistingusihedServiceAwardNC.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>DistingusihedServiceAwardTR</MeritID>
+		<MeritName>Distingusihed Service Award</MeritName>
+		<Level>4</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>TR</Empire>
+		<KA>7500</KA>
+		<MeritImage>MeritViewer.DistingusihedServiceAwardTR.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>DistingusihedServiceAwardVS</MeritID>
+		<MeritName>Distingusihed Service Award</MeritName>
+		<Level>4</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>VS</Empire>
+		<KA>7500</KA>
+		<MeritImage>MeritViewer.DistingusihedServiceAwardVS.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>MedalOfCombatServiceNC</MeritID>
+		<MeritName>Medal of Combat Service</MeritName>
+		<Level>3</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>NC</Empire>
+		<KA>5000</KA>
+		<MeritImage>MeritViewer.MedalOfCombatServiceNC.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>MedalOfCombatServiceTR</MeritID>
+		<MeritName>Medal of Combat Service</MeritName>
+		<Level>3</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>TR</Empire>
+		<KA>5000</KA>
+		<MeritImage>MeritViewer.MedalOfCombatServiceTR.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>MedalOfCombatServiceVS</MeritID>
+		<MeritName>Medal of Combat Service</MeritName>
+		<Level>3</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>VS</Empire>
+		<KA>5000</KA>
+		<MeritImage>MeritViewer.MedalOfCombatServiceVS.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CitationForBraveryNC</MeritID>
+		<MeritName>Citation For Bravery</MeritName>
+		<Level>2</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>NC</Empire>
+		<KA>2500</KA>
+		<MeritImage>MeritViewer.CitationForBraveryNC.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CitationForBraveryTR</MeritID>
+		<MeritName>Citation For Bravery</MeritName>
+		<Level>2</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>TR</Empire>
+		<KA>2500</KA>
+		<MeritImage>MeritViewer.CitationForBraveryTR.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CitationForBraveryVS</MeritID>
+		<MeritName>Citation For Bravery</MeritName>
+		<Level>2</Level>
+		<Group>EmpireDefense</Group>
+		<Empire>VS</Empire>
+		<KA>2500</KA>
+		<MeritImage>MeritViewer.CitationForBraveryVS.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RouterBronze</MeritID>
+		<MeritName>Router Support ronze</MeritName>
+		<Level>2</Level>
+		<Group>RouterSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>250</KA>
+		<MeritImage>MeritViewer.RouterSupportQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RouterQual</MeritID>
+		<MeritName>Router Support Qualification</MeritName>
+		<Level>1</Level>
+		<Group>RouterSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<MeritImage>MeritViewer.RouterSupportBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RouterSilver</MeritID>
+		<MeritName>Router Support Silver</MeritName>
+		<Level>3</Level>
+		<Group>RouterSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<MeritImage>MeritViewer.RouterSupportSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RouterGold</MeritID>
+		<MeritName>Router Support Gold</MeritName>
+		<Level>4</Level>
+		<Group>RouterSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.RouterSupportGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RouterPlatinum</MeritID>
+		<MeritName>Router Support Platinum</MeritName>
+		<Level>5</Level>
+		<Group>RouterSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<MeritImage>MeritViewer.RouterSupportPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RiflemanQual</MeritID>
+		<MeritName>Rifleman Qualification</MeritName>
+		<Level>1</Level>
+		<Group>Rifleman</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.RiflemanQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RiflemanBronze</MeritID>
+		<MeritName>Rifleman Bronze</MeritName>
+		<Level>2</Level>
+		<Group>Rifleman</Group>
+		<Empire>ALL</Empire>
+		<KA>800</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.RiflemanBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RiflemanSilver</MeritID>
+		<MeritName>Rifleman Silver</MeritName>
+		<Level>3</Level>
+		<Group>Rifleman</Group>
+		<Empire>ALL</Empire>
+		<KA>1500</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.RiflemanSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RiflemanGold</MeritID>
+		<MeritName>Rifleman Gold</MeritName>
+		<Level>4</Level>
+		<Group>Rifleman</Group>
+		<Empire>ALL</Empire>
+		<KA>2500</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.RiflemanGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>RiflemanPlatinum</MeritID>
+		<MeritName>Rifleman Platinum</MeritName>
+		<Level>5</Level>
+		<Group>Rifleman</Group>
+		<Empire>ALL</Empire>
+		<KA>4000</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.RiflemanPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ResMedicQual</MeritID>
+		<MeritName>Resuscitation Medic Qualification</MeritName>
+		<Level>1</Level>
+		<Group>ResMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>50</KA>
+		<Streak>0</Streak>
+		<MeritImage>MeritViewer.ResuscitationMedicQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ResMedicBronze</MeritID>
+		<MeritName>Resuscitation Medic Bronze</MeritName>
+		<Level>2</Level>
+		<Group>ResMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.ResuscitationMedicBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ResMedicSilver</MeritID>
+		<MeritName>Resuscitation Medic Silver</MeritName>
+		<Level>3</Level>
+		<Group>ResMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>250</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.ResuscitationMedicSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ResMedicGold</MeritID>
+		<MeritName>Resuscitation Medic Gold</MeritName>
+		<Level>4</Level>
+		<Group>ResMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.ResuscitationMedicGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>ResMedicPlatinum</MeritID>
+		<MeritName>Resuscitation Medic Platinum</MeritName>
+		<Level>5</Level>
+		<Group>ResMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>1000</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.ResuscitationMedicPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>MAXOBronze</MeritID>
+		<MeritName>MAX Operator Bronze</MeritName>
+		<Level>1</Level>
+		<Group>MAXO</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.MAXOperatorBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>MAXOSilver</MeritID>
+		<MeritName>MAX Operator Silver</MeritName>
+		<Level>2</Level>
+		<Group>MAXO</Group>
+		<Empire>ALL</Empire>
+		<KA>800</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.MAXOperatorSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>MAXOGold</MeritID>
+		<MeritName>MAX Operator Gold</MeritName>
+		<Level>3</Level>
+		<Group>MAXO</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.MAXOperatorGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LodestarSupportQual</MeritID>
+		<MeritName>Lodestar Support Qualification</MeritName>
+		<Level>1</Level>
+		<Group>LodestarSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>75</KA>
+		<MeritImage>MeritViewer.LodestarSupportQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LodestarSupportBronze</MeritID>
+		<MeritName>Lodestar Support Bronze</MeritName>
+		<Level>2</Level>
+		<Group>LodestarSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<MeritImage>MeritViewer.LodestarSupportBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LodestarSupportSilver</MeritID>
+		<MeritName>Lodestar Support Silver</MeritName>
+		<Level>3</Level>
+		<Group>LodestarSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>450</KA>
+		<MeritImage>MeritViewer.LodestarSupportSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LodestarSupportGold</MeritID>
+		<MeritName>Lodestar Support Gold</MeritName>
+		<Level>4</Level>
+		<Group>LodestarSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>750</KA>
+		<MeritImage>MeritViewer.LodestarSupportGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LodestarSupportPlatinum</MeritID>
+		<MeritName>Lodestar Support Platinum</MeritName>
+		<Level>5</Level>
+		<Group>LodestarSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>1500</KA>
+		<MeritImage>MeritViewer.LodestarSupportPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LockerHackerQual</MeritID>
+		<MeritName>Locker Hacker Qualification</MeritName>
+		<Level>1</Level>
+		<Group>LockerHacker</Group>
+		<Empire>ALL</Empire>
+		<KA>15</KA>
+		<MeritImage>MeritViewer.LockerHackerQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LockerHackerBronze</MeritID>
+		<MeritName>Locker Hacker Bronze</MeritName>
+		<Level>2</Level>
+		<Group>LockerHacker</Group>
+		<Empire>ALL</Empire>
+		<KA>35</KA>
+		<MeritImage>MeritViewer.LockerHackerBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LockerHackerSilver</MeritID>
+		<MeritName>Locker Hacker Silver</MeritName>
+		<Level>3</Level>
+		<Group>LockerHacker</Group>
+		<Empire>ALL</Empire>
+		<KA>75</KA>
+		<MeritImage>MeritViewer.LockerHackerSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LockerHackerGold</MeritID>
+		<MeritName>Locker Hacker Gold</MeritName>
+		<Level>4</Level>
+		<Group>LockerHacker</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<MeritImage>MeritViewer.LockerHackerGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>LockerHackerPlatinum</MeritID>
+		<MeritName>Locker Hacker Platinum</MeritName>
+		<Level>5</Level>
+		<Group>LockerHacker</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<MeritImage>MeritViewer.LockerHackerPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>InfantryArmorQual</MeritID>
+		<MeritName>Infantry Armor Qualification</MeritName>
+		<Level>1</Level>
+		<Group>InfantryArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>75</KA>
+		<MeritImage>MeritViewer.InfantryArmorSupportGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>InfantryArmorBronze</MeritID>
+		<MeritName>Infantry Armor Bronze</MeritName>
+		<Level>2</Level>
+		<Group>InfantryArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>175</KA>
+		<MeritImage>MeritViewer.InfantryArmorSupportQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>InfantryArmorSilver</MeritID>
+		<MeritName>Infantry Armor Silver</MeritName>
+		<Level>3</Level>
+		<Group>InfantryArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>350</KA>
+		<MeritImage>MeritViewer.InfantryArmorSupportPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>InfantryArmorGold</MeritID>
+		<MeritName>Infantry Armor Gold</MeritName>
+		<Level>4</Level>
+		<Group>InfantryArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>700</KA>
+		<MeritImage>MeritViewer.InfantryArmorSupportBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>InfantryArmorPlatinum</MeritID>
+		<MeritName>Infantry Armor Platinum</MeritName>
+		<Level>5</Level>
+		<Group>InfantryArmor</Group>
+		<Empire>ALL</Empire>
+		<KA>1250</KA>
+		<MeritImage>MeritViewer.InfantryArmorSupportSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HackingQual</MeritID>
+		<MeritName>Hacking Qualification</MeritName>
+		<Level>1</Level>
+		<Group>Hacking</Group>
+		<Empire>ALL</Empire>
+		<KA>50</KA>
+		<MeritImage>MeritViewer.HackingSupportQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HackingBronze</MeritID>
+		<MeritName>Hacking Bronze</MeritName>
+		<Level>2</Level>
+		<Group>Hacking</Group>
+		<Empire>ALL</Empire>
+		<KA>125</KA>
+		<MeritImage>MeritViewer.HackingSupportBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HackingSilver</MeritID>
+		<MeritName>Hacking Silver</MeritName>
+		<Level>3</Level>
+		<Group>Hacking</Group>
+		<Empire>ALL</Empire>
+		<KA>300</KA>
+		<MeritImage>MeritViewer.HackingSupportSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HackingGold</MeritID>
+		<MeritName>Hacking Gold</MeritName>
+		<Level>4</Level>
+		<Group>Hacking</Group>
+		<Empire>ALL</Empire>
+		<KA>650</KA>
+		<MeritImage>MeritViewer.HackingSupportGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HackingPlatinum</MeritID>
+		<MeritName>Hacking Platinum</MeritName>
+		<Level>5</Level>
+		<Group>Hacking</Group>
+		<Empire>ALL</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.HackingSupportPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GroundGunnerQual</MeritID>
+		<MeritName>Ground Gunner Qualification</MeritName>
+		<Level>1</Level>
+		<Group>GroundGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>250</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.GroundGunnerQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GroundGunnerBronze</MeritID>
+		<MeritName>Ground Gunner Bronze</MeritName>
+		<Level>2</Level>
+		<Group>GroundGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.GroundGunnerBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GroundGunnerSilver</MeritID>
+		<MeritName>Ground Gunner Silver</MeritName>
+		<Level>3</Level>
+		<Group>GroundGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>750</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.GroundGunnerSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GroundGunnerGold</MeritID>
+		<MeritName>Ground Gunner Gold</MeritName>
+		<Level>4</Level>
+		<Group>GroundGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>1500</KA>
+		<Streak>10</Streak>
+		<MeritImage>MeritViewer.GroundGunnerGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GroundGunnerPlatinum</MeritID>
+		<MeritName>Ground Gunner Platinum</MeritName>
+		<Level>5</Level>
+		<Group>GroundGunner</Group>
+		<Empire>ALL</Empire>
+		<KA>2500</KA>
+		<Streak>15</Streak>
+		<MeritImage>MeritViewer.GroundGunnerPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GalaxySupportQual</MeritID>
+		<MeritName>Galaxy Support Qualification</MeritName>
+		<Level>1</Level>
+		<Group>GalaxySupport</Group>
+		<Empire>ALL</Empire>
+		<KA>75</KA>
+		<MeritImage>MeritViewer.GalaxySupportPilotQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GalaxySupportBronze</MeritID>
+		<MeritName>Galaxy Support Bronze</MeritName>
+		<Level>2</Level>
+		<Group>GalaxySupport</Group>
+		<Empire>ALL</Empire>
+		<KA>150</KA>
+		<MeritImage>MeritViewer.GalaxySupportPilotBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GalaxySupportSilver</MeritID>
+		<MeritName>Galaxy Support Silver</MeritName>
+		<Level>3</Level>
+		<Group>GalaxySupport</Group>
+		<Empire>ALL</Empire>
+		<KA>450</KA>
+		<MeritImage>MeritViewer.GalaxySupportPilotSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GalaxySupportGold</MeritID>
+		<MeritName>Galaxy Support Gold</MeritName>
+		<Level>4</Level>
+		<Group>GalaxySupport</Group>
+		<Empire>ALL</Empire>
+		<KA>900</KA>
+		<MeritImage>MeritViewer.GalaxySupportPilotGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GalaxySupportPlatinum</MeritID>
+		<MeritName>Galaxy Support Platinum</MeritName>
+		<Level>5</Level>
+		<Group>GalaxySupport</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<MeritImage>MeritViewer.GalaxySupportPilotPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>DriverGunneryQual</MeritID>
+		<MeritName>Driver Gunnery Qualification</MeritName>
+		<Level>1</Level>
+		<Group>DriverGunnery</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.DriverGunneryQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>DriverGunneryBronze</MeritID>
+		<MeritName>Driver Gunnery Bronze</MeritName>
+		<Level>2</Level>
+		<Group>DriverGunnery</Group>
+		<Empire>ALL</Empire>
+		<KA>800</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.DriverGunneryBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>DriverGunnerySilver</MeritID>
+		<MeritName>Driver Gunnery Silver</MeritName>
+		<Level>3</Level>
+		<Group>DriverGunnery</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.DriverGunnerySilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>DriverGunneryGold</MeritID>
+		<MeritName>Driver Gunnery Gold</MeritName>
+		<Level>4</Level>
+		<Group>DriverGunnery</Group>
+		<Empire>ALL</Empire>
+		<KA>1600</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.DriverGunneryGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>DriverGunneryPlatinum</MeritID>
+		<MeritName>Driver Gunnery Platinum</MeritName>
+		<Level>5</Level>
+		<Group>DriverGunnery</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.DriverGunneryPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BasicWeaponsQual</MeritID>
+		<MeritName>Basic Weapons Qualification</MeritName>
+		<Level>1</Level>
+		<Group>BasicWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.BasicWeaponsQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BasicWeaponsBronze</MeritID>
+		<MeritName>Basic Weapons Bronze</MeritName>
+		<Level>2</Level>
+		<Group>BasicWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.BasicWeaponsBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BasicWeaponsSilver</MeritID>
+		<MeritName>Basic Weapons Silver</MeritName>
+		<Level>3</Level>
+		<Group>BasicWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>300</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.BasicWeaponsSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BasicWeaponsGold</MeritID>
+		<MeritName>Basic Weapons Gold</MeritName>
+		<Level>4</Level>
+		<Group>BasicWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.BasicWeaponsGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BasicWeaponsPlatinum</MeritID>
+		<MeritName>Basic Weapons Platinum</MeritName>
+		<Level>5</Level>
+		<Group>BasicWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>500</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.BasicWeaponsPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BombardierQual</MeritID>
+		<MeritName>Bombardier Qualification</MeritName>
+		<Level>1</Level>
+		<Group>Bombardier</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.BombardierQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BombardierBronze</MeritID>
+		<MeritName>Bombardier Bronze</MeritName>
+		<Level>2</Level>
+		<Group>Bombardier</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.BombardierBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BombardierSilver</MeritID>
+		<MeritName>Bombardier Silver</MeritName>
+		<Level>3</Level>
+		<Group>Bombardier</Group>
+		<Empire>ALL</Empire>
+		<KA>700</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.BombardierSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BombardierGold</MeritID>
+		<MeritName>Bombardier Gold</MeritName>
+		<Level>4</Level>
+		<Group>Bombardier</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.BombardierGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BombardierPlatinum</MeritID>
+		<MeritName>Bombardier Platinum</MeritName>
+		<Level>5</Level>
+		<Group>Bombardier</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>10</Streak>
+		<MeritImage>MeritViewer.BombardierPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BomberAceQual</MeritID>
+		<MeritName>Bomber Ace Qualification</MeritName>
+		<Level>1</Level>
+		<Group>BomberAce</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.BomberAceQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BomberAceBronze</MeritID>
+		<MeritName>Bomber Ace Bronze</MeritName>
+		<Level>2</Level>
+		<Group>BomberAce</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.BomberAceBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BomberAceSilver</MeritID>
+		<MeritName>Bomber Ace Silver</MeritName>
+		<Level>3</Level>
+		<Group>BomberAce</Group>
+		<Empire>ALL</Empire>
+		<KA>700</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.BomberAceSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BomberAceGold</MeritID>
+		<MeritName>Bomber Ace Gold</MeritName>
+		<Level>4</Level>
+		<Group>BomberAce</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.BomberAceGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>BomberAcePlatinum</MeritID>
+		<MeritName>Bomber Ace Platinum</MeritName>
+		<Level>5</Level>
+		<Group>BomberAce</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>10</Streak>
+		<MeritImage>MeritViewer.BomberAcePlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryDriverQual</MeritID>
+		<MeritName>Cavalry Driver Qualification</MeritName>
+		<Level>1</Level>
+		<Group>CavalryDriver</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.CavalryDriverQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryDriverBronze</MeritID>
+		<MeritName>Cavalry Driver Bronze</MeritName>
+		<Level>2</Level>
+		<Group>CavalryDriver</Group>
+		<Empire>ALL</Empire>
+		<KA>800</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.CavalryDriverBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryDriverSilver</MeritID>
+		<MeritName>Cavalry Driver Silver</MeritName>
+		<Level>3</Level>
+		<Group>CavalryDriver</Group>
+		<Empire>ALL</Empire>
+		<KA>1200</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.CavalryDriverSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryDriverGold</MeritID>
+		<MeritName>Cavalry Driver Gold</MeritName>
+		<Level>4</Level>
+		<Group>CavalryDriver</Group>
+		<Empire>ALL</Empire>
+		<KA>1600</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.CavalryDriverGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryDriverPlatinum</MeritID>
+		<MeritName>Cavalry Driver Platinum</MeritName>
+		<Level>5</Level>
+		<Group>CavalryDriver</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.CavalryDriverPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryPilotQual</MeritID>
+		<MeritName>Cavalry Pilot Qualification</MeritName>
+		<Level>1</Level>
+		<Group>CavalryPilot</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.CavalryPilotQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryPilotBronze</MeritID>
+		<MeritName>Cavalry Pilot Bronze</MeritName>
+		<Level>2</Level>
+		<Group>CavalryPilot</Group>
+		<Empire>ALL</Empire>
+		<KA>800</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.CavalryPilotBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryPilotSilver</MeritID>
+		<MeritName>Cavalry Pilot Silver</MeritName>
+		<Level>3</Level>
+		<Group>CavalryPilot</Group>
+		<Empire>ALL</Empire>
+		<KA>1500</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.CavalryPilotSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryPilotGold</MeritID>
+		<MeritName>Cavalry Pilot Gold</MeritName>
+		<Level>4</Level>
+		<Group>CavalryPilot</Group>
+		<Empire>ALL</Empire>
+		<KA>2500</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.CavalryPilotGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CavalryPilotPlatinum</MeritID>
+		<MeritName>Cavalry Pilot Platinum</MeritName>
+		<Level>5</Level>
+		<Group>CavalryPilot</Group>
+		<Empire>ALL</Empire>
+		<KA>4000</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.CavalryPilotPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatMedicQual</MeritID>
+		<MeritName>Combat Medic Qualification</MeritName>
+		<Level>1</Level>
+		<Group>CombatMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>35</KA>
+		<MeritImage>MeritViewer.CombatMedicQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatMedicBronze</MeritID>
+		<MeritName>Combat Medic Bronze</MeritName>
+		<Level>2</Level>
+		<Group>CombatMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>85</KA>
+		<MeritImage>MeritViewer.CombatMedicBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatMedicSilver</MeritID>
+		<MeritName>Combat Medic Silver</MeritName>
+		<Level>3</Level>
+		<Group>CombatMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>185</KA>
+		<MeritImage>MeritViewer.CombatMedicSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatMedicGold</MeritID>
+		<MeritName>Combat Medic Gold</MeritName>
+		<Level>4</Level>
+		<Group>CombatMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<MeritImage>MeritViewer.CombatMedicGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatMedicPlatinum</MeritID>
+		<MeritName>Combat Medic Platinum</MeritName>
+		<Level>5</Level>
+		<Group>CombatMedic</Group>
+		<Empire>ALL</Empire>
+		<KA>650</KA>
+		<MeritImage>MeritViewer.CombatMedicPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatResQual</MeritID>
+		<MeritName>Combat Resuscitation Qualification</MeritName>
+		<Level>1</Level>
+		<Group>CombatRes</Group>
+		<Empire>ALL</Empire>
+		<KA>15</KA>
+		<MeritImage>MeritViewer.CombatResuscitationQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatResBronze</MeritID>
+		<MeritName>Combat Resuscitation Bronze</MeritName>
+		<Level>2</Level>
+		<Group>CombatRes</Group>
+		<Empire>ALL</Empire>
+		<KA>40</KA>
+		<MeritImage>MeritViewer.CombatResuscitationBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatResSilver</MeritID>
+		<MeritName>Combat Resuscitation Silver</MeritName>
+		<Level>3</Level>
+		<Group>CombatRes</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<MeritImage>MeritViewer.CombatResuscitationSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatResGold</MeritID>
+		<MeritName>Combat Resuscitation Gold</MeritName>
+		<Level>4</Level>
+		<Group>CombatRes</Group>
+		<Empire>ALL</Empire>
+		<KA>225</KA>
+		<MeritImage>MeritViewer.CombatResuscitationGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>CombatResPlatinum</MeritID>
+		<MeritName>Combat Resuscitation Platinum</MeritName>
+		<Level>5</Level>
+		<Group>CombatRes</Group>
+		<Empire>ALL</Empire>
+		<KA>600</KA>
+		<MeritImage>MeritViewer.CombatResuscitationPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>EquipmentSupportQual</MeritID>
+		<MeritName>Equipment Support Qualification</MeritName>
+		<Level>1</Level>
+		<Group>EquipmentSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<MeritImage>MeritViewer.EquipmentSupportQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>EquipmentSupportBronze</MeritID>
+		<MeritName>Equipment Support Bronze</MeritName>
+		<Level>2</Level>
+		<Group>EquipmentSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>250</KA>
+		<MeritImage>MeritViewer.EquipmentSupportBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>EquipmentSupportSilver</MeritID>
+		<MeritName>Equipment Support Silver</MeritName>
+		<Level>3</Level>
+		<Group>EquipmentSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>600</KA>
+		<MeritImage>MeritViewer.EquipmentSupportSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>EquipmentSupportGold</MeritID>
+		<MeritName>Equipment Support Gold</MeritName>
+		<Level>4</Level>
+		<Group>EquipmentSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>1000</KA>
+		<MeritImage>MeritViewer.EquipmentSupportGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>EquipmentSupportPlatinum</MeritID>
+		<MeritName>Equipment Support Platinum</MeritName>
+		<Level>5</Level>
+		<Group>EquipmentSupport</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<MeritImage>MeritViewer.EquipmentSupportPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HeavyWeaponsQual</MeritID>
+		<MeritName>Heavy Weapons Qualification</MeritName>
+		<Level>1</Level>
+		<Group>HeavyWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>1000</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.HeavyWeaponsQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HeavyWeaponsBronze</MeritID>
+		<MeritName>Heavy Weapons Bronze</MeritName>
+		<Level>2</Level>
+		<Group>HeavyWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.HeavyWeaponsBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HeavyWeaponsSilver</MeritID>
+		<MeritName>Heavy Weapons Silver</MeritName>
+		<Level>3</Level>
+		<Group>HeavyWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>3500</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.HeavyWeaponsSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HeavyWeaponsGold</MeritID>
+		<MeritName>Heavy Weapons Gold</MeritName>
+		<Level>4</Level>
+		<Group>HeavyWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>5500</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.HeavyWeaponsGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HeavyWeaponsPlatinum</MeritID>
+		<MeritName>Heavy Weapons Platinum</MeritName>
+		<Level>5</Level>
+		<Group>HeavyWeapons</Group>
+		<Empire>ALL</Empire>
+		<KA>8000</KA>
+		<Streak>12</Streak>
+		<MeritImage>MeritViewer.HeavyWeaponsPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HandToHandQual</MeritID>
+		<MeritName>Hand-to-Hand Qualification</MeritName>
+		<Level>1</Level>
+		<Group>HandToHand</Group>
+		<Empire>ALL</Empire>
+		<KA>100</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.HandToHandQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HandToHandBronze</MeritID>
+		<MeritName>Hand-to-Hand Bronze</MeritName>
+		<Level>2</Level>
+		<Group>HandToHand</Group>
+		<Empire>ALL</Empire>
+		<KA>200</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.HandToHandBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HandToHandSilver</MeritID>
+		<MeritName>Hand-to-Hand Silver</MeritName>
+		<Level>3</Level>
+		<Group>HandToHand</Group>
+		<Empire>ALL</Empire>
+		<KA>400</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.HandToHandSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HandToHandGold</MeritID>
+		<MeritName>Hand-to-Hand Gold</MeritName>
+		<Level>4</Level>
+		<Group>HandToHand</Group>
+		<Empire>ALL</Empire>
+		<KA>600</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.HandToHandGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>HandToHandPlatinum</MeritID>
+		<MeritName>Hand-to-Hand Platinum</MeritName>
+		<Level>5</Level>
+		<Group>HandToHand</Group>
+		<Empire>ALL</Empire>
+		<KA>1000</KA>
+		<Streak>5</Streak>
+		<MeritImage>MeritViewer.HandToHandPlatinum.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GrenadierQual</MeritID>
+		<MeritName>Grenadier Qualification</MeritName>
+		<Level>1</Level>
+		<Group>Grenadier</Group>
+		<Empire>ALL</Empire>
+		<KA>300</KA>
+		<Streak>2</Streak>
+		<MeritImage>MeritViewer.GrenadierQual.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GrenadierBronze</MeritID>
+		<MeritName>Grenadier Bronze</MeritName>
+		<Level>2</Level>
+		<Group>Grenadier</Group>
+		<Empire>ALL</Empire>
+		<KA>600</KA>
+		<Streak>3</Streak>
+		<MeritImage>MeritViewer.GrenadierBronze.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GrenadierSilver</MeritID>
+		<MeritName>Grenadier Silver</MeritName>
+		<Level>3</Level>
+		<Group>Grenadier</Group>
+		<Empire>ALL</Empire>
+		<KA>900</KA>
+		<Streak>4</Streak>
+		<MeritImage>MeritViewer.GrenadierSilver.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GrenadierGold</MeritID>
+		<MeritName>Grenadier Gold</MeritName>
+		<Level>4</Level>
+		<Group>Grenadier</Group>
+		<Empire>ALL</Empire>
+		<KA>1400</KA>
+		<Streak>6</Streak>
+		<MeritImage>MeritViewer.GrenadierGold.bmp</MeritImage>
+	</tblMerits>
+	<tblMerits>
+		<MeritID>GrenadierPlatinum</MeritID>
+		<MeritName>Grenadier Platinum</MeritName>
+		<Level>5</Level>
+		<Group>Grenadier</Group>
+		<Empire>ALL</Empire>
+		<KA>2000</KA>
+		<Streak>8</Streak>
+		<MeritImage>MeritViewer.GrenadierPlatinum.bmp</MeritImage>
+	</tblMerits>
+</MeritData>

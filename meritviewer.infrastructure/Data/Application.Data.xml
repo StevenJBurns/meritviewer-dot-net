@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MeritData xmlns="">
+  <Category name="Empire Service">
+    <Group name="Annual Term of Service" type="Citation">
+      <Merit empire="NC" level="1" counters="0" streak="0" imagepath="AnnualServiceNC1.png" name="Annual Term of Service (1-Year)" />
+      <Merit empire="NC" level="2" counters="0" streak="0" imagepath="AnnualServiceNC2.png" name="Annual Term of Service (2-Year)" />
+      <Merit empire="NC" level="3" counters="0" streak="0" imagepath="AnnualServiceNC3.png" name="Annual Term of Service (3-Year)" />
+      <Merit empire="NC" level="4" counters="0" streak="0" imagepath="AnnualServiceNC4.png" name="Annual Term of Service (4-Year)" />
+      <Merit empire="NC" level="5" counters="0" streak="0" imagepath="AnnualServiceNC5.png" name="Annual Term of Service (5-Year)" />
+      <Merit empire="NC" level="6" counters="0" streak="0" imagepath="AnnualServiceNC6.png" name="Annual Term of Service (6-Year)" />
+      <Merit empire="TR" level="1" counters="0" streak="0" imagepath="AnnualServiceTR1.png" name="Annual Term of Service (1-Year)" />
+      <Merit empire="TR" level="2" counters="0" streak="0" imagepath="AnnualServiceTR2.png" name="Annual Term of Service (2-Year)" />
+      <Merit empire="TR" level="3" counters="0" streak="0" imagepath="AnnualServiceTR3.png" name="Annual Term of Service (3-Year)" />
+      <Merit empire="TR" level="4" counters="0" streak="0" imagepath="AnnualServiceTR4.png" name="Annual Term of Service (4-Year)" />
+      <Merit empire="TR" level="5" counters="0" streak="0" imagepath="AnnualServiceTR5.png" name="Annual Term of Service (5-Year)" />
+      <Merit empire="TR" level="6" counters="0" streak="0" imagepath="AnnualServiceTR6.png" name="Annual Term of Service (6-Year)" />
+      <Merit empire="VS" level="1" counters="0" streak="0" imagepath="AnnualServiceVS1.png" name="Annual Term of Service (1-Year)" />
+      <Merit empire="VS" level="2" counters="0" streak="0" imagepath="AnnualServiceVS2.png" name="Annual Term of Service (2-Year)" />
+      <Merit empire="VS" level="3" counters="0" streak="0" imagepath="AnnualServiceVS3.png" name="Annual Term of Service (3-Year)" />
+      <Merit empire="VS" level="4" counters="0" streak="0" imagepath="AnnualServiceVS4.png" name="Annual Term of Service (4-Year)" />
+      <Merit empire="VS" level="5" counters="0" streak="0" imagepath="AnnualServiceVS5.png" name="Annual Term of Service (5-Year)" />
+      <Merit empire="VS" level="6" counters="0" streak="0" imagepath="AnnualServiceVS6.png" name="Annual Term of Service (6-Year)" />
+      <GroupDescription>I didn't unsub yet</GroupDescription>
+    </Group>
+    <Group name="Empire Defense" type="Citation">
+      <Merit empire="NC" level="1" counters="1000"  streak="0" imagepath="EmpireDefenseNC1.png" name="Combat Initiation" />
+      <Merit empire="NC" level="2" counters="2500"  streak="0" imagepath="EmpireDefenseNC2.png" name="Citation For Bravery" />
+      <Merit empire="NC" level="3" counters="5000"  streak="0" imagepath="EmpireDefenseNC3.png" name="Medal Of Combat Service" />
+      <Merit empire="NC" level="4" counters="7500"  streak="0" imagepath="EmpireDefenseNC4.png" name="Distinguished Service Award" />
+      <Merit empire="NC" level="5" counters="10000" streak="0" imagepath="EmpireDefenseNC5.png" name="Order of the New Conglomerate Defense" />
+      <Merit empire="NC" level="5" counters="15000" streak="0" imagepath="EmpireDefenseNC6.png" name="Order of the New Conglomerate Defense Titanium" />
+      <Merit empire="NC" level="5" counters="30000" streak="0" imagepath="EmpireDefenseNC7.png" name="Order of the New Conglomerate Defense Auraxium" />
+      <Merit empire="TR" level="1" counters="1000"  streak="0" imagepath="EmpireDefenseTR1.png" name="Combat Initiation" />
+      <Merit empire="TR" level="2" counters="2500"  streak="0" imagepath="EmpireDefenseTR2.png" name="Citation For Bravery" />
+      <Merit empire="TR" level="3" counters="5000"  streak="0" imagepath="EmpireDefenseTR3.png" name="Medal Of Combat Service" />
+      <Merit empire="TR" level="4" counters="7500"  streak="0" imagepath="EmpireDefenseTR4.png" name="Distinguished Service Award" />
+      <Merit empire="TR" level="5" counters="10000" streak="0" imagepath="EmpireDefenseTR5.png" name="Order of the Terran Republic Defense" />
+      <Merit empire="TR" level="5" counters="15000" streak="0" imagepath="EmpireDefenseTR6.png" name="Order of the Terran Republic Defense Titanium" />
+      <Merit empire="TR" level="5" counters="30000" streak="0" imagepath="EmpireDefenseTR7.png" name="Order of the Terran Republic Defense Auraxium" />
+      <Merit empire="VS" level="1" counters="1000"  streak="0" imagepath="EmpireDefenseVS1.png" name="Combat Initiation" />
+      <Merit empire="VS" level="2" counters="2500"  streak="0" imagepath="EmpireDefenseVS2.png" name="Citation For Bravery" />
+      <Merit empire="VS" level="3" counters="5000"  streak="0" imagepath="EmpireDefenseVS3.png" name="Medal Of Combat Service" />
+      <Merit empire="VS" level="4" counters="7500"  streak="0" imagepath="EmpireDefenseVS4.png" name="Distitnguished Service Award" />
+      <Merit empire="VS" level="5" counters="10000" streak="0" imagepath="EmpireDefenseVS5.png" name="Order of the Vanu Sovereignty Defense" />
+      <Merit empire="VS" level="5" counters="15000" streak="0" imagepath="EmpireDefenseVS6.png" name="Order of the Vanu Sovereignty Defense Titanium" />
+      <Merit empire="VS" level="5" counters="30000" streak="0" imagepath="EmpireDefenseVS7.png" name="Order of the Vanu Sovereignty Defense Auraxium" />
+      <GroupDescription>Killin bitches</GroupDescription>
+    </Group>
+  </Category>
+  <Category name="Exclusive">
+    <Group name="Award">
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Event">
+      <Merit empire="ALL" level="1" imagepath="" name="Black Ops Mercenary" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Fan-Fairre">
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Holiday">
+      <Merit empire="ALL" level="1" imagepath="" name="Ball and Chain (Male)" />
+      <Merit empire="ALL" level="1" imagepath="" name="Ball and Chain (Female)" />
+      <Merit empire="ALL" level="1" imagepath="" name="Holiday Gingerbread Men" />
+      <Merit empire="ALL" level="1" imagepath="" name="Holiday Snowmen" />
+      <Merit empire="ALL" level="1" imagepath="" name="Holiday Spirit Of Youth" />
+      <Merit empire="NC"  level="1" imagepath="" name="Halloween Assassin" />
+      <Merit empire="TR"  level="1" imagepath="" name="Halloween Assassin" />
+      <Merit empire="VS"  level="1" imagepath="" name="Halloween Assassin" />
+      <GroupDescription></GroupDescription>
+    </Group>
+  </Category>
+  <Category name="Expedition">
+    <Group name="Air Combat Ace" type="Combat">
+      <Merit empire="ALL" level="1" counters="200"  streak="2"  imagepath="AirCombatAce1.png" name="Air Combat Ace Qualification" />
+      <Merit empire="ALL" level="2" counters="400"  streak="3"  imagepath="AirCombatAce2.png" name="Air Combat Ace Bronze" />
+      <Merit empire="ALL" level="3" counters="800"  streak="4"  imagepath="AirCombatAce3.png" name="Air Combat Ace Silver" />
+      <Merit empire="ALL" level="4" counters="1200" streak="5"  imagepath="AirCombatAce4.png" name="Air Combat Ace Gold" />
+      <Merit empire="ALL" level="5" counters="1700" streak="8"  imagepath="AirCombatAce5.png" name="Air Combat Ace Platinum" />
+      <Merit empire="ALL" level="6" counters="2500" streak="10" imagepath="AirCombatAce6.png" name="Air Combat Ace Titanium" />
+      <Merit empire="ALL" level="7" counters="4000" streak="12" imagepath="AirCombatAce7.png" name="Air Combat Ace Auraxium" />
+      <GroupDescription>Shoot planes down</GroupDescription>
+    </Group>
+    <Group name="Air Defender" type="Combat">      
+      <Merit empire="ALL" level="1" counters="350"  streak="2"  imagepath="AirDefender1.png" name="Air Defender Qualification" />
+      <Merit empire="ALL" level="2" counters="700"  streak="3"  imagepath="AirDefender2.png" name="Air Defender Bronze" />
+      <Merit empire="ALL" level="3" counters="1200" streak="4"  imagepath="AirDefender3.png" name="Air Defender Silver" />
+      <Merit empire="ALL" level="4" counters="2000" streak="5"  imagepath="AirDefender4.png" name="Air Defender Gold" />
+      <Merit empire="ALL" level="5" counters="3000" streak="8"  imagepath="AirDefender5.png" name="Air Defender Platinum" />
+      <Merit empire="ALL" level="6" counters="5000" streak="10" imagepath="AirDefender6.png" name="Air Defender Titanium" />
+      <Merit empire="ALL" level="7" counters="7500" streak="12" imagepath="AirDefender7.png" name="Air Defender Auraxium" />
+      <GroupDescription>Shoot planes down</GroupDescription>
+    </Group>
+    <Group name="BFR Buster" type="Combat">
+      <Merit empire="ALL" level="1" counters="35"   streak="0" imagepath="BFRBuster1.png" name="BFR Buster Qualification" />
+      <Merit empire="ALL" level="2" counters="100"  streak="2" imagepath="BFRBuster2.png" name="BFR Buster Bronze" />
+      <Merit empire="ALL" level="3" counters="200"  streak="2" imagepath="BFRBuster3.png" name="BFR Buster Silver" />
+      <Merit empire="ALL" level="4" counters="350"  streak="2" imagepath="BFRBuster4.png" name="BFR Buster Gold" />
+      <Merit empire="ALL" level="5" counters="500"  streak="3" imagepath="BFRBuster5.png" name="BFR Buster Platinum" />
+      <Merit empire="ALL" level="6" counters="750"  streak="4" imagepath="BFRBuster6.png" name="BFR Buster Titanium" />
+      <Merit empire="ALL" level="7" counters="1000" streak="5" imagepath="BFRBuster7.png" name="BFR Buster Auraxium" />
+      <GroupDescription>Gaybot Killer</GroupDescription>
+    </Group>
+    <Group name="Black Ops Hunter" type="Combat">
+      <Merit empire="ALL" level="1" counters="1"    streak="0" imagepath="BlackOpsHunter1.png" name="BFR Buster Qualification" />
+      <Merit empire="ALL" level="2" counters="10"   streak="0" imagepath="BlackOpsHunter2.png" name="BFR Buster Bronze" />
+      <Merit empire="ALL" level="3" counters="30"   streak="0" imagepath="BlackOpsHunter3.png" name="BFR Buster Silver" />
+      <Merit empire="ALL" level="4" counters="100"  streak="0" imagepath="BlackOpsHunter4.png" name="BFR Buster Gold" />
+      <Merit empire="ALL" level="5" counters="300"  streak="0" imagepath="BlackOpsHunter5.png" name="BFR Buster Platinum" />      
+      <GroupDescription>Gaybot Killer</GroupDescription>
+    </Group>
+    <Group name="Engineering" type="Combat">
+      <Merit empire="ALL" level="1" counters="250"  streak="2"  imagepath="Engineering1.png" name="Engineering Bronze" />
+      <Merit empire="ALL" level="2" counters="500"  streak="3"  imagepath="Engineering2.png" name="Engineering Silver" />
+      <Merit empire="ALL" level="3" counters="1000" streak="5"  imagepath="Engineering3.png" name="Engineering Gold"   />
+      <Merit empire="ALL" level="4" counters="1500" streak="7"  imagepath="Engineering4.png" name="Engineering Platinum" />
+      <Merit empire="ALL" level="5" counters="2500" streak="8"  imagepath="Engineering5.png" name="Engineering Titanium" />
+      <Merit empire="ALL" level="6" counters="4000" streak="10" imagepath="Engineering6.png" name="Engineering Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Exploration" type="Citation">
+      <Merit empire="ALL" level="1" imagepath="Exploration.png" name="Exploration" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Jacking" type="Support">
+      <Merit empire="ALL" level="1" counters="50"   streak="0" imagepath="Jacking1.png" name="Jacking Basic" />
+      <Merit empire="ALL" level="2" counters="100"  streak="2" imagepath="Jacking2.png" name="Jacking Bronze" />
+      <Merit empire="ALL" level="3" counters="255"  streak="3" imagepath="Jacking3.png" name="Jacking Silver" />
+      <Merit empire="ALL" level="4" counters="500"  streak="4" imagepath="Jacking4.png" name="Jacking Gold" />
+      <Merit empire="ALL" level="5" counters="1000" streak="5" imagepath="Jacking5.png" name="Jacking Platinum" />
+      <Merit empire="ALL" level="6" counters="2500" streak="6" imagepath="Jacking6.png" name="Jacking Titanium" />
+      <Merit empire="ALL" level="7" counters="5000" streak="8" imagepath="Jacking7.png" name="Jacking Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="MAX Buster" type="Combat">
+      <GroupDescription></GroupDescription>
+      <Merit empire="ALL" level="1" counters="250"  streak="2" imagepath="MaxBuster1.png" name="MAX Buster Bronze" />
+      <Merit empire="ALL" level="2" counters="400"  streak="4" imagepath="MaxBuster2.png" name="MAX Buster Silver" />
+      <Merit empire="ALL" level="3" counters="600"  streak="6" imagepath="MaxBuster3.png" name="MAX Buster Gold"   />
+      <Merit empire="ALL" level="4" counters="900"  streak="6" imagepath="MaxBuster4.png" name="MAX Buster Platinum" />
+      <Merit empire="ALL" level="5" counters="1400" streak="6" imagepath="MaxBuster5.png" name="MAX Buster Titanium" />
+      <Merit empire="ALL" level="6" counters="2000" streak="6" imagepath="MaxBuster6.png" name="MAX BusterAuraxium" />
+    </Group>
+    <Group name="Supply Blockade" type="Combat">
+      <Merit empire="ALL" level="1" counters="50"   streak="0" imagepath="SupplyBlockade1.png" name="Supply Blockade Qualification" />
+      <Merit empire="ALL" level="2" counters="100"  streak="0" imagepath="SupplyBlockade2.png" name="Supply Blockade Bronze" />
+      <Merit empire="ALL" level="3" counters="175"  streak="0" imagepath="SupplyBlockade3.png" name="Supply Blockade Silver" />
+      <Merit empire="ALL" level="4" counters="250"  streak="0" imagepath="SupplyBlockade4.png" name="Supply Blockade Gold" />
+      <Merit empire="ALL" level="5" counters="350"  streak="0" imagepath="SupplyBlockade5.png" name="Supply Blockade Platinum" />
+      <Merit empire="ALL" level="6" counters="600"  streak="2" imagepath="SupplyBlockade6.png" name="Supply Blockade Titanium" />
+      <Merit empire="ALL" level="7" counters="1000" streak="4" imagepath="SupplyBlockade7.png" name="Supply Blockade Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Tank Buster" type="Combat">
+      <Merit empire="ALL" level="1" counters="50"   streak="0" imagepath="TankBuster1.png" name="Tank Buster Qualification" />
+      <Merit empire="ALL" level="2" counters="125"  streak="0" imagepath="TankBuster2.png" name="Tank Buster Bronze" />
+      <Merit empire="ALL" level="3" counters="225"  streak="0" imagepath="TankBuster3.png" name="Tank Buster Silver" />
+      <Merit empire="ALL" level="4" counters="350"  streak="0" imagepath="TankBuster4.png" name="Tank Buster Gold" />
+      <Merit empire="ALL" level="5" counters="500"  streak="0" imagepath="TankBuster5.png" name="Tank Buster Platinum" />
+      <Merit empire="ALL" level="6" counters="750"  streak="3" imagepath="TankBuster6.png" name="Tank Buster Titanium" />
+      <Merit empire="ALL" level="7" counters="1250" streak="5" imagepath="TankBuster7.png" name="Tank Buster Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Transport Blockade" type="Combat">
+      <Merit empire="ALL" level="1" counters="50"  streak="0" imagepath="TransportBlockade1.png" name="Transport Blockade Qualification" />
+      <Merit empire="ALL" level="2" counters="100" streak="0" imagepath="TransportBlockade2.png" name="Transport Blockade Bronze" />
+      <Merit empire="ALL" level="3" counters="150" streak="0" imagepath="TransportBlockade3.png" name="Transport Blockade Silver" />
+      <Merit empire="ALL" level="4" counters="200" streak="0" imagepath="TransportBlockade4.png" name="Transport Blockade Gold" />
+      <Merit empire="ALL" level="5" counters="250" streak="0" imagepath="TransportBlockade5.png" name="Transport Blockade Platinum" />
+      <Merit empire="ALL" level="6" counters="350" streak="3" imagepath="TransportBlockade6.png" name="Transport Blockade Titanium" />
+      <Merit empire="ALL" level="7" counters="500" streak="5" imagepath="TransportBlockade7.png" name="Transport Blockade Auraxium" />
+      <GroupDescription>Deli's, Sundy's and such</GroupDescription>
+    </Group>
+  </Category>
+  <Category name="Support">
+    <Group name="AMS Support" type="Support">
+      <Merit empire="ALL" level="1" counters="300"   streak="0" imagepath="AMS1.png" name="AMS Support Qualification" />
+      <Merit empire="ALL" level="2" counters="600"   streak="0" imagepath="AMS2.png" name="AMS Support Bronze" />
+      <Merit empire="ALL" level="3" counters="1200"  streak="0" imagepath="AMS3.png" name="AMS Support Silver" />
+      <Merit empire="ALL" level="4" counters="2500"  streak="0" imagepath="AMS4.png" name="AMS Support Gold" />
+      <Merit empire="ALL" level="5" counters="5000"  streak="0" imagepath="AMS5.png" name="AMS Support Platinum" />
+      <Merit empire="ALL" level="6" counters="7500"  streak="0" imagepath="AMS6.png" name="AMS Support Titanium" />
+      <Merit empire="ALL" level="7" counters="10000" streak="0" imagepath="AMS7.png" name="AMS Support Auraxium" />
+      <GroupDescription>Mr Helper</GroupDescription>
+    </Group>
+    <Group name="Combat Medic" type="Support">
+      <Merit empire="ALL" level="1" counters="35"   streak="0" imagepath="CombatMedic1.png" name="Combat Medic Qualification" />
+      <Merit empire="ALL" level="2" counters="85"   streak="0" imagepath="CombatMedic2.png" name="Combat Medic Bronze" />
+      <Merit empire="ALL" level="3" counters="185"  streak="0" imagepath="CombatMedic3.png" name="Combat Medic Silver" />
+      <Merit empire="ALL" level="4" counters="400"  streak="0" imagepath="CombatMedic4.png" name="Combat Medic Gold" />
+      <Merit empire="ALL" level="5" counters="650"  streak="0" imagepath="CombatMedic5.png" name="Combat Medic Platinum" />
+      <Merit empire="ALL" level="6" counters="1500" streak="0" imagepath="CombatMedic6.png" name="Combat Medic Titanium" />
+      <Merit empire="ALL" level="7" counters="3000" streak="0" imagepath="CombatMedic7.png" name="Combat Medic Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Combat Resuscitation" type="Support">
+      <Merit empire="ALL" level="1" counters="15"   streak="0" imagepath="CombatResus1.png" name="Combat Resuscitation Qualification" />
+      <Merit empire="ALL" level="2" counters="40"   streak="0" imagepath="CombatResus2.png" name="Combat Resuscitation Bronze" />
+      <Merit empire="ALL" level="3" counters="100"  streak="0" imagepath="CombatResus3.png" name="Combat Resuscitation Silver" />
+      <Merit empire="ALL" level="4" counters="225"  streak="0" imagepath="CombatResus4.png" name="Combat Resuscitation Gold" />
+      <Merit empire="ALL" level="5" counters="600"  streak="0" imagepath="CombatResus5.png" name="Combat Resuscitation Platinum" />
+      <Merit empire="ALL" level="6" counters="1000" streak="0" imagepath="CombatResus6.png" name="Combat Resuscitation Titanium" />
+      <Merit empire="ALL" level="7" counters="2000" streak="0" imagepath="CombatResus7.png" name="Combat Resuscitation Auraxium" />      
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Equipment Support" type="Support">
+      <Merit empire="ALL" level="1" counters="100"  streak="0" imagepath="EquipmentSupport1.png" name="Equipment Support Qualification" />
+      <Merit empire="ALL" level="2" counters="250"  streak="0" imagepath="EquipmentSupport2.png" name="Equipment Support Bronze" />
+      <Merit empire="ALL" level="3" counters="600"  streak="0" imagepath="EquipmentSupport3.png" name="Equipment Support Silver" />
+      <Merit empire="ALL" level="4" counters="1000" streak="0" imagepath="EquipmentSupport4.png" name="Equipment Support Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="0" imagepath="EquipmentSupport5.png" name="Equipment Support Platinum" />
+      <Merit empire="ALL" level="6" counters="3500" streak="0" imagepath="EquipmentSupport6.png" name="Equipment Support Titanium" />
+      <Merit empire="ALL" level="7" counters="5000" streak="0" imagepath="EquipmentSupport7.png" name="Equipment Support Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Galaxy Support Pilot" type="Support">
+      <Merit empire="ALL" level="1" counters="75"   streak="0" imagepath="GalaxySupportPilot1.png" name="Galaxy Support Pilot Qualification" />
+      <Merit empire="ALL" level="2" counters="150"  streak="0" imagepath="GalaxySupportPilot2.png" name="Galaxy Support Pilot Bronze" />
+      <Merit empire="ALL" level="3" counters="450"  streak="0" imagepath="GalaxySupportPilot3.png" name="Galaxy Support Pilot Silver" />
+      <Merit empire="ALL" level="4" counters="900"  streak="0" imagepath="GalaxySupportPilot4.png" name="Galaxy Support Pilot Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="0" imagepath="GalaxySupportPilot5.png" name="Galaxy Support Pilot Platinum" />
+      <Merit empire="ALL" level="6" counters="3500" streak="0" imagepath="GalaxySupportPilot6.png" name="Galaxy Support Pilot Titanium" />
+      <Merit empire="ALL" level="7" counters="5000" streak="0" imagepath="GalaxySupportPilot7.png" name="Galaxy Support Pilot Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Hacking Support" type="Support">
+      <Merit empire="ALL" level="1" counters="50"   streak="0" imagepath="HackingSupport1.png" name="Hacking Support Qualification" />
+      <Merit empire="ALL" level="2" counters="125"  streak="0" imagepath="HackingSupport2.png" name="Hacking Support Bronze" />
+      <Merit empire="ALL" level="3" counters="300"  streak="0" imagepath="HackingSupport3.png" name="Hacking Support Silver" />
+      <Merit empire="ALL" level="4" counters="650"  streak="0" imagepath="HackingSupport4.png" name="Hacking Support Gold" />
+      <Merit empire="ALL" level="5" counters="1000" streak="0" imagepath="HackingSupport5.png" name="Hacking Support Platinum" />
+      <Merit empire="ALL" level="6" counters="2500" streak="0" imagepath="HackingSupport6.png" name="Hacking Support Titanium" />
+      <Merit empire="ALL" level="7" counters="4000" streak="0" imagepath="HackingSupport7.png" name="Hacking Support Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Hacking Support" type="Support">
+      <Merit empire="ALL" level="7" imagepath="HackingSupportSpecialist.png" name="Hacking Support Specialist" />
+    </Group>
+    <Group name="Infantry Armor Support" type="Support">
+      <Merit empire="ALL" level="1" counters="75"   streak="0" imagepath="InfantryArmorSupport1.png" name="Infantry Armor Support Qualification" />
+      <Merit empire="ALL" level="2" counters="175"  streak="0" imagepath="InfantryArmorSupport2.png" name="Infantry Armor Support Bronze" />
+      <Merit empire="ALL" level="3" counters="350"  streak="0" imagepath="InfantryArmorSupport3.png" name="Infantry Armor Support Silver" />
+      <Merit empire="ALL" level="4" counters="700"  streak="0" imagepath="InfantryArmorSupport4.png" name="Infantry Armor Support Gold" />
+      <Merit empire="ALL" level="5" counters="1250" streak="0" imagepath="InfantryArmorSupport5.png" name="Infantry Armor Support Platinum" />
+      <Merit empire="ALL" level="6" counters="3000" streak="0" imagepath="InfantryArmorSupport6.png" name="Infantry Armor Support Titanium" />
+      <Merit empire="ALL" level="7" counters="4500" streak="0" imagepath="InfantryArmorSupport7.png" name="Infantry Armor Support Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Locker Hacker" type="Support">
+      <Merit empire="ALL" level="1" counters="15"  streak="0" imagepath="LockerHacker1.png" name="Locker Hacker Qualification" />
+      <Merit empire="ALL" level="2" counters="35"  streak="0" imagepath="LockerHacker2.png" name="Locker Hacker Bronze" />
+      <Merit empire="ALL" level="3" counters="75"  streak="0" imagepath="LockerHacker3.png" name="Locker Hacker Silver" />
+      <Merit empire="ALL" level="4" counters="200" streak="0" imagepath="LockerHacker4.png" name="Locker Hacker Gold" />
+      <Merit empire="ALL" level="5" counters="400" streak="0" imagepath="LockerHacker5.png" name="Locker Hacker Platinum" />
+      <Merit empire="ALL" level="6" counters="650" streak="0" imagepath="LockerHacker6.png" name="Locker Hacker Titanium" />
+      <Merit empire="ALL" level="7" counters="900" streak="0" imagepath="LockerHacker7.png" name="Locker Hacker Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Lodestar Support" type="Support">
+      <Merit empire="ALL" level="1" counters="75"   streak="0" imagepath="LodestarSupport1.png" name="Lodestar Support Qualification" />
+      <Merit empire="ALL" level="2" counters="200"  streak="0" imagepath="LodestarSupport2.png" name="Lodestar Support Bronze" />
+      <Merit empire="ALL" level="3" counters="450"  streak="0" imagepath="LodestarSupport3.png" name="Lodestar Support Silver" />
+      <Merit empire="ALL" level="4" counters="750"  streak="0" imagepath="LodestarSupport4.png" name="Lodestar Support Gold" />
+      <Merit empire="ALL" level="5" counters="1500" streak="0" imagepath="LodestarSupport5.png" name="Lodestar Support Platinum" />
+      <Merit empire="ALL" level="6" counters="3000" streak="0" imagepath="LodestarSupport6.png" name="Lodestar Support Titanium" />
+      <Merit empire="ALL" level="7" counters="4500" streak="0" imagepath="LodestarSupport7.png" name="Lodestar Support Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Resuscitation Medic" type="Support">
+      <Merit empire="ALL" level="1" counters="50"   streak="0" imagepath="ResusMedic1.png" name="Resuscitation Medic Qualification" />
+      <Merit empire="ALL" level="2" counters="100"  streak="2" imagepath="ResusMedic2.png" name="Resuscitation Medic Bronze" />
+      <Merit empire="ALL" level="3" counters="250"  streak="3" imagepath="ResusMedic3.png" name="Resuscitation Medic Silver" />
+      <Merit empire="ALL" level="4" counters="500"  streak="4" imagepath="ResusMedic4.png" name="Resuscitation Medic Gold" />
+      <Merit empire="ALL" level="5" counters="1000" streak="5" imagepath="ResusMedic5.png" name="Resuscitation Medic Platinum" />
+      <Merit empire="ALL" level="6" counters="2000" streak="0" imagepath="ResusMedic6.png" name="Resuscitation Medic Titanium" />
+      <Merit empire="ALL" level="7" counters="3000" streak="0" imagepath="ResusMedic7.png" name="Resuscitation Medic Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="RouterSupport" type="Support">
+      <Merit empire="ALL" level="1" counters="100"  streak="0" imagepath="RouterSupport1.png" name="Router Support Qualification" />
+      <Merit empire="ALL" level="2" counters="250"  streak="0" imagepath="RouterSupport2.png" name="Router Support Bronze" />
+      <Merit empire="ALL" level="3" counters="500"  streak="0" imagepath="RouterSupport3.png" name="Router Support Silver" />
+      <Merit empire="ALL" level="4" counters="1000" streak="0" imagepath="RouterSupport4.png" name="Router Support Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="0" imagepath="RouterSupport5.png" name="Router Support Platinum" />
+      <Merit empire="ALL" level="6" counters="5000" streak="0" imagepath="RouterSupport6.png" name="Router Support Titanium" />
+      <Merit empire="ALL" level="7" counters="7500" streak="0" imagepath="RouterSupport7.png" name="Router Support Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Telepad Deployment" type="Support">
+      <Merit empire="ALL" level="1" counters="100"   streak="0" imagepath="TelepadDeployment1.png" name="Telepad Deployment Qualification" />
+      <Merit empire="ALL" level="2" counters="250"   streak="0" imagepath="TelepadDeployment2.png" name="Telepad Deployment Bronze" />
+      <Merit empire="ALL" level="3" counters="500"   streak="0" imagepath="TelepadDeployment3.png" name="Telepad Deployment Silver" />
+      <Merit empire="ALL" level="4" counters="1000"  streak="0" imagepath="TelepadDeployment4.png" name="Telepad Deployment Gold" />
+      <Merit empire="ALL" level="5" counters="2000"  streak="0" imagepath="TelepadDeployment5.png" name="Telepad Deployment Platinum" />
+      <Merit empire="ALL" level="6" counters="3500"  streak="0" imagepath="TelepadDeployment6.png" name="Telepad Deployment Titanium" />
+      <Merit empire="ALL" level="7" counters="7000"  streak="0" imagepath="TelepadDeployment7.png" name="Telepad Deployment Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Tiny Robotics" type="Support">      
+      <Merit empire="ALL" level="1" counters="15"  streak="0" imagepath="TinyRobotics1.png" name="Tiny Robotics Qualification" />
+      <Merit empire="ALL" level="2" counters="35"  streak="0" imagepath="TinyRobotics2.png" name="Tiny Robotics Bronze" />
+      <Merit empire="ALL" level="3" counters="75"  streak="0" imagepath="TinyRobotics3.png" name="Tiny Robotics Silver" />
+      <Merit empire="ALL" level="4" counters="200" streak="0" imagepath="TinyRobotics4.png" name="Tiny Robotics Gold" />
+      <Merit empire="ALL" level="5" counters="400" streak="0" imagepath="TinyRobotics5.png" name="Tiny Robotics Platinum" />
+      <Merit empire="ALL" level="6" counters="400" streak="0" imagepath="TinyRobotics6.png" name="Tiny Robotics Titanium" />
+      <Merit empire="ALL" level="7" counters="400" streak="0" imagepath="TinyRobotics7.png" name="Tiny Robotics Auraxium" />
+      <GroupDescription>Fix your lil buddies!</GroupDescription>
+      </Group>
+  </Category>
+  <Category name="Vehicular">
+    <Group name="Advanced BFR" type="Combat">
+      <Merit empire="ALL" level="1" counters="100" streak="15" imagepath="AdvancedBFR1.png" name="Advanced BFR" />
+      <Merit empire="ALL" level="1" counters="100" streak="15" imagepath="AdvancedBFR2.png" name="Advanced BFR" />
+      <Merit empire="ALL" level="1" counters="100" streak="15" imagepath="AdvancedBFR3.png" name="Advanced BFR" />
+      <Merit empire="ALL" level="1" counters="100" streak="15" imagepath="AdvancedBFR4.png" name="Advanced BFR" />
+      <Merit empire="ALL" level="1" counters="100" streak="15" imagepath="AdvancedBFR5.png" name="Advanced BFR" />
+      <GroupDescription>Advanced gheyness</GroupDescription>
+    </Group>
+    <Group name="Air Combat Ace" type="Combat">
+      <Merit empire="ALL" level="1" counters="200"  streak="2"  imagepath="AirCombatAce1.png" name="Air Combat Ace Qualification" />
+      <Merit empire="ALL" level="2" counters="400"  streak="3"  imagepath="AirCombatAce2.png" name="Air Combat Ace Bronze" />
+      <Merit empire="ALL" level="3" counters="800"  streak="4"  imagepath="AirCombatAce3.png" name="Air Combat Ace Silver" />
+      <Merit empire="ALL" level="4" counters="1200" streak="5"  imagepath="AirCombatAce4.png" name="Air Combat Ace Gold" />
+      <Merit empire="ALL" level="5" counters="1700" streak="8"  imagepath="AirCombatAce5.png" name="Air Combat Ace Platinum" />
+      <Merit empire="ALL" level="6" counters="2500" streak="10" imagepath="AirCombatAce6.png" name="Air Combat Ace Titanium" />
+      <Merit empire="ALL" level="7" counters="4000" streak="12" imagepath="AirCombatAce7.png" name="Air Combat Ace Auraxium" />
+      <GroupDescription>Shoot other planes down</GroupDescription>
+    </Group>
+    <Group name="Bombardier" type="Combat">
+      <Merit empire="ALL" level="1" counters="200"  streak="2"  imagepath="Bombardier1.png" name="Bombardier Qualification" />
+      <Merit empire="ALL" level="2" counters="400"  streak="4"  imagepath="Bombardier2.png" name="Bombardier Bronze" />
+      <Merit empire="ALL" level="3" counters="700"  streak="6"  imagepath="Bombardier3.png" name="Bombardier Silver" />
+      <Merit empire="ALL" level="4" counters="1200" streak="8"  imagepath="Bombardier4.png" name="Bombardier Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="10" imagepath="Bombardier5.png" name="Bombardier Platinum" />
+      <Merit empire="ALL" level="6" counters="3500" streak="12" imagepath="Bombardier6.png" name="Bombardier Titanium" />
+      <Merit empire="ALL" level="7" counters="6000" streak="15" imagepath="Bombardier7.png" name="Bombardier Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Bomber Ace" type="Combat">
+      <Merit empire="ALL" level="1" counters="200"  streak="2"  imagepath="BomberAce1.png" name="Bomber Ace Qualification" />
+      <Merit empire="ALL" level="2" counters="400"  streak="4"  imagepath="BomberAce2.png" name="Bomber Ace Bronze" />
+      <Merit empire="ALL" level="3" counters="700"  streak="6"  imagepath="BomberAce3.png" name="Bomber Ace Silver" />
+      <Merit empire="ALL" level="4" counters="1200" streak="8"  imagepath="BomberAce4.png" name="Bomber Ace Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="10" imagepath="BomberAce5.png" name="Bomber Ace Platinum" />
+      <Merit empire="ALL" level="6" counters="3500" streak="12" imagepath="BomberAce6.png" name="Bomber Ace Titanium" />
+      <Merit empire="ALL" level="7" counters="6000" streak="15" imagepath="BomberAce7.png" name="Bomber Ace Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Cavalry Driver" type="Combat">
+      <Merit empire="ALL" level="1" counters="400"  streak="2"  imagepath="CavalryDriver1.png" name="Cavalry Driver Qualification" />
+      <Merit empire="ALL" level="2" counters="800"  streak="3"  imagepath="CavalryDriver2.png" name="Cavalry Driver Bronze" />
+      <Merit empire="ALL" level="3" counters="1200" streak="4"  imagepath="CavalryDriver3.png" name="Cavalry Driver Silver" />
+      <Merit empire="ALL" level="4" counters="1600" streak="5"  imagepath="CavalryDriver4.png" name="Cavalry Driver Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="8"  imagepath="CavalryDriver5.png" name="Cavalry Driver Platinum" />
+      <Merit empire="ALL" level="6" counters="4000" streak="12" imagepath="CavalryDriver6.png" name="Cavalry Driver Titanium" />
+      <Merit empire="ALL" level="7" counters="6000" streak="15" imagepath="CavalryDriver7.png" name="Cavalry Driver Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Cavalry Pilot" type="Combat">
+      <Merit empire="ALL" level="1" counters="400"  streak="2"  imagepath="CavalryPilot1.png" name="Cavalry Pilot Qualification" />
+      <Merit empire="ALL" level="2" counters="800"  streak="3"  imagepath="CavalryPilot2.png" name="Cavalry Pilot Bronze" />
+      <Merit empire="ALL" level="3" counters="1500" streak="4"  imagepath="CavalryPilot3.png" name="Cavalry Pilot Silver" />
+      <Merit empire="ALL" level="4" counters="2500" streak="5"  imagepath="CavalryPilot4.png" name="Cavalry Pilot Gold" />
+      <Merit empire="ALL" level="5" counters="4000" streak="8"  imagepath="CavalryPilot5.png" name="Cavalry Pilot Platinum" />
+      <Merit empire="ALL" level="6" counters="6000" streak="10" imagepath="CavalryPilot6.png" name="Cavalry Pilot Titanium" />
+      <Merit empire="ALL" level="7" counters="8000" streak="12" imagepath="CavalryPilot7.png" name="Cavalry Pilot Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Driver Gunnery" type="Combat">
+      <Merit empire="ALL" level="1" counters="400"  streak="2"  imagepath="DriverGunnery1.png" name="Driver Gunnery Qualification" />
+      <Merit empire="ALL" level="2" counters="800"  streak="3"  imagepath="DriverGunnery2.png" name="Driver Gunnery Bronze" />
+      <Merit empire="ALL" level="3" counters="1200" streak="4"  imagepath="DriverGunnery3.png" name="Driver Gunnery Silver" />
+      <Merit empire="ALL" level="4" counters="1600" streak="5"  imagepath="DriverGunnery4.png" name="Driver Gunnery Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="8"  imagepath="DriverGunnery5.png" name="Driver Gunnery Platinum" />
+      <Merit empire="ALL" level="6" counters="4000" streak="12" imagepath="DriverGunnery6.png" name="Driver Gunnery Titanium" />
+      <Merit empire="ALL" level="7" counters="6000" streak="15" imagepath="DriverGunnery7.png" name="Driver Gunnery Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Ground Gunner" type="Combat">
+      <Merit empire="ALL" level="1" counters="400"  streak="2"  imagepath="GroundGunner1.png" name="Ground Gunner Qualification" />
+      <Merit empire="ALL" level="2" counters="800"  streak="3"  imagepath="GroundGunner2.png" name="Ground Gunner Bronze" />
+      <Merit empire="ALL" level="3" counters="1200" streak="4"  imagepath="GroundGunner3.png" name="Ground Gunner Silver" />
+      <Merit empire="ALL" level="4" counters="1600" streak="5"  imagepath="GroundGunner4.png" name="Ground Gunner Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="8"  imagepath="GroundGunner5.png" name="Ground Gunner Platinum" />
+      <Merit empire="ALL" level="6" counters="4000" streak="12" imagepath="GroundGunner6.png" name="Ground Gunner Titanium" />
+      <Merit empire="ALL" level="7" counters="6000" streak="15" imagepath="GroundGunner7.png" name="Ground Gunner Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Transportation Citation" type="Combat">
+      <Merit empire="ALL" level="1" counters="50"   streak="0"  imagepath="TransportationCitation1.png" name="Transportation Citation I" />
+      <Merit empire="ALL" level="2" counters="200"  streak="3"  imagepath="TransportationCitation2.png" name="Transportation Citation II" />
+      <Merit empire="ALL" level="3" counters="1000" streak="6"  imagepath="TransportationCitation3.png" name="Transportation Citation III" />
+      <Merit empire="ALL" level="4" counters="1750" streak="8"  imagepath="TransportationCitation4.png" name="Transportation Citation IV" />
+      <Merit empire="ALL" level="5" counters="3000" streak="10" imagepath="TransportationCitation5.png" name="Transportation Citation V" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Turret Gunner" type="Combat">
+      <Merit empire="ALL" level="1" counters="50"   streak="2"  imagepath="TurretGunner1.png" name="Turret Gunner Qualification" />
+      <Merit empire="ALL" level="2" counters="100"  streak="2"  imagepath="TurretGunner2.png" name="Turret Gunner Bronze" />
+      <Merit empire="ALL" level="3" counters="200"  streak="3"  imagepath="TurretGunner3.png" name="Turret Gunner Silver" />
+      <Merit empire="ALL" level="4" counters="350"  streak="4"  imagepath="TurretGunner4.png" name="Turret Gunner Gold"  />
+      <Merit empire="ALL" level="5" counters="500"  streak="6"  imagepath="TurretGunner5.png" name="Turret Gunner Platinum" />
+      <Merit empire="ALL" level="5" counters="700"  streak="8"  imagepath="TurretGunner6.png" name="Turret Gunner Titanium"/>
+      <Merit empire="ALL" level="5" counters="1000" streak="10" imagepath="TurretGunner7.png" name="Turret Gunner Auraxium"/>
+      <GroupDescription></GroupDescription>
+    </Group>
+  </Category>
+  <Category name="Weaponry">
+    <Group name="Anti-Armor" type="Combat">
+      <Merit empire="ALL" level="1" counters="200"  streak="2"  imagepath="AntiArmor1.png" name="Anti-Armor Qualification"  />
+      <Merit empire="ALL" level="2" counters="400"  streak="3"  imagepath="AntiArmor2.png" name="Anti-Armor Bronze" />
+      <Merit empire="ALL" level="3" counters="700"  streak="4"  imagepath="AntiArmor3.png" name="Anti-Armor Silver" />
+      <Merit empire="ALL" level="4" counters="1200" streak="5"  imagepath="AntiArmor4.png" name="Anti-Armor Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="8"  imagepath="AntiArmor5.png" name="Anti-Armor Platinum" />
+      <Merit empire="ALL" level="6" counters="4000" streak="12" imagepath="AntiArmor6.png" name="Anti-Armor Titanium" />
+      <Merit empire="ALL" level="7" counters="6000" streak="16" imagepath="AntiArmor7.png" name="Anti-Armor Auraxium" />
+      <GroupDescription>Strikers and such</GroupDescription>
+    </Group>
+    <Group name="Basic Weapons" type="Combat">
+      <Merit empire="ALL" level="1" counters="100"   streak="2"  imagepath="BasicWeapons1.png" name="Basic Weapons Qualification" />
+      <Merit empire="ALL" level="2" counters="200"   streak="3"  imagepath="BasicWeapons2.png" name="Basic Weapons Bronze" />
+      <Merit empire="ALL" level="3" counters="300"   streak="4"  imagepath="BasicWeapons3.png" name="Basic Weapons Silver" />
+      <Merit empire="ALL" level="4" counters="400"   streak="5"  imagepath="BasicWeapons4.png" name="Basic Weapons Gold" />
+      <Merit empire="ALL" level="5" counters="500"   streak="6"  imagepath="BasicWeapons5.png" name="Basic Weapons Platinum" />
+      <Merit empire="ALL" level="6" counters="750"   streak="8"  imagepath="BasicWeapons6.png" name="Basic Weapons Titanium" />
+      <Merit empire="ALL" level="7" counters="1500"  streak="10" imagepath="BasicWeapons7.png" name="Basic Weapons Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Elite Assault" type="Combat">
+      <Merit empire="ALL" level="1" counters="5"    streak="0"  imagepath="EliteAssault1.png" name="Elite Assault Qualification" />
+      <Merit empire="ALL" level="2" counters="200"  streak="2"  imagepath="EliteAssault2.png" name="Elite Assault Basic" />
+      <Merit empire="ALL" level="3" counters="400"  streak="3"  imagepath="EliteAssault3.png" name="Elite Assault Bronze" />
+      <Merit empire="ALL" level="4" counters="700"  streak="4"  imagepath="EliteAssault4.png" name="Elite Assault Silver" />
+      <Merit empire="ALL" level="5" counters="1200" streak="5"  imagepath="EliteAssault5.png" name="Elite Assault Gold" />
+      <Merit empire="ALL" level="6" counters="2000" streak="8"  imagepath="EliteAssault6.png" name="Elite Assault Platinum" />
+      <Merit empire="ALL" level="7" counters="3000" streak="10" imagepath="EliteAssault7.png" name="Elite Assault Titanium" />
+      <Merit empire="ALL" level="8" counters="5000" streak="12" imagepath="EliteAssault8.png" name="Elite Assault Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Grenadier" type="Combat">
+      <Merit empire="ALL" level="1" counters="300"   streak="2"  imagepath="Grenadier1.png" name="Grenadier Qualification" />
+      <Merit empire="ALL" level="2" counters="600"   streak="3"  imagepath="Grenadier2.png" name="Grenadier Bronze" />
+      <Merit empire="ALL" level="3" counters="900"   streak="4"  imagepath="Grenadier3.png" name="Grenadier Silver" />
+      <Merit empire="ALL" level="4" counters="1400"  streak="6"  imagepath="Grenadier4.png" name="Grenadier Gold" />
+      <Merit empire="ALL" level="5" counters="2000"  streak="8"  imagepath="Grenadier5.png" name="Grenadier Platinum" />
+      <Merit empire="ALL" level="6" counters="3000"  streak="9"  imagepath="Grenadier6.png" name="Grenadier Titanium" />
+      <Merit empire="ALL" level="7" counters="5000"  streak="10" imagepath="Grenadier7.png" name="Grenadier Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Hand-to-Hand" type="Combat">
+      <Merit empire="ALL" level="1" counters="100"  streak="2"  imagepath="HandToHand1.png" name="Hand-to-Hand Qualification" />
+      <Merit empire="ALL" level="2" counters="200"  streak="2"  imagepath="HandToHand2.png" name="Hand-to-Hand Bronze" />
+      <Merit empire="ALL" level="3" counters="400"  streak="3"  imagepath="HandToHand3.png" name="Hand-to-Hand Silver" />
+      <Merit empire="ALL" level="4" counters="600"  streak="4"  imagepath="HandToHand4.png" name="Hand-to-Hand Gold" />
+      <Merit empire="ALL" level="5" counters="1000" streak="5"  imagepath="HandToHand5.png" name="Hand-to-Hand Platinum" />
+      <Merit empire="ALL" level="6" counters="1500" streak="6"  imagepath="HandToHand6.png" name="Hand-to-Hand Titanium" />
+      <Merit empire="ALL" level="7" counters="3000" streak="7"  imagepath="HandToHand7.png" name="Hand-to-Hand Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Heavy Weapons" type="Combat">
+      <Merit empire="ALL" level="1" counters="1000"  streak="2"  imagepath="HeavyWeapons1.png" name="Heavy Weapons Qualification" />
+      <Merit empire="ALL" level="2" counters="2000"  streak="3"  imagepath="HeavyWeapons2.png" name="Heavy Weapons Bronze" />
+      <Merit empire="ALL" level="3" counters="3500"  streak="5"  imagepath="HeavyWeapons3.png" name="Heavy Weapons Silver" />
+      <Merit empire="ALL" level="4" counters="5500"  streak="8"  imagepath="HeavyWeapons4.png" name="Heavy Weapons Gold" />
+      <Merit empire="ALL" level="5" counters="8000"  streak="12" imagepath="HeavyWeapons5.png" name="Heavy Weapons Platinum" />
+      <Merit empire="ALL" level="6" counters="12000" streak="14" imagepath="HeavyWeapons6.png" name="Heavy Weapons Titanium" />
+      <Merit empire="ALL" level="7" counters="18000" streak="15" imagepath="HeavyWeapons7.png" name="Heavy Weapons Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Max Operator" type="Combat">
+      <Merit empire="ALL" level="1" counters="500"  streak="2" imagepath="MaxOperator1.png" name="Max Operator Bronze" />
+      <Merit empire="ALL" level="2" counters="800"  streak="3" imagepath="MaxOperator2.png" name="Max Operator Silver" />
+      <Merit empire="ALL" level="3" counters="1200" streak="4" imagepath="MaxOperator3.png" name="Max Operator Gold" />
+      <Merit empire="ALL" level="4" counters="1750" streak="5" imagepath="MaxOperator4.png" name="Max Operator Platinum" />
+      <Merit empire="ALL" level="5" counters="2500" streak="6" imagepath="MaxOperator5.png" name="Max Operator Titanium" />
+      <Merit empire="ALL" level="6" counters="4000" streak="8" imagepath="MaxOperator6.png" name="Max Operator Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Rifleman" type="Combat">
+      <Merit empire="ALL" level="1" counters="400"   streak="2"  imagepath="Rifleman1.png" name="Rifleman Qualification" />
+      <Merit empire="ALL" level="2" counters="800"   streak="3"  imagepath="Rifleman2.png" name="Rifleman Bronze" />
+      <Merit empire="ALL" level="3" counters="1500"  streak="4"  imagepath="Rifleman3.png" name="Rifleman Silver" />
+      <Merit empire="ALL" level="4" counters="2500"  streak="5"  imagepath="Rifleman4.png" name="Rifleman Gold" />
+      <Merit empire="ALL" level="5" counters="4000"  streak="8"  imagepath="Rifleman5.png" name="Rifleman Platinum" />
+      <Merit empire="ALL" level="6" counters="6000"  streak="10" imagepath="Rifleman6.png" name="Rifleman Titanium" />
+      <Merit empire="ALL" level="7" counters="10000" streak="12" imagepath="Rifleman7.png" name="Rifleman Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Saboteur" type="Combat">
+      <Merit empire="ALL" level="1" counters="150"  streak="2"  imagepath="Saboteur1.png" name="Saboteur Qualification" />
+      <Merit empire="ALL" level="2" counters="300"  streak="3"  imagepath="Saboteur2.png" name="Saboteur Bronze" />
+      <Merit empire="ALL" level="3" counters="500"  streak="5"  imagepath="Saboteur3.png" name="Saboteur Silver" />
+      <Merit empire="ALL" level="4" counters="750"  streak="8"  imagepath="Saboteur4.png" name="Saboteur Gold" />
+      <Merit empire="ALL" level="5" counters="1500" streak="10" imagepath="Saboteur5.png" name="Saboteur Platinum" />
+      <Merit empire="ALL" level="6" counters="3000" streak="12" imagepath="Saboteur6.png" name="Saboteur Titanium" />
+      <Merit empire="ALL" level="7" counters="5000" streak="15" imagepath="Saboteur7.png" name="Saboteur Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Scavenger" type="Combat">
+      <Merit empire="NC" level="1" counters="15"    streak="0"  imagepath="ScavengerNC1.png" name="Scavenger Bronze" />
+      <Merit empire="NC" level="2" counters="100"   streak="0"  imagepath="ScavengerNC2.png" name="Scavenger Silver" />
+      <Merit empire="NC" level="3" counters="1000"  streak="0"  imagepath="ScavengerNC3.png" name="Scavenger Gold" />
+      <Merit empire="NC" level="4" counters="2000"  streak="4"  imagepath="ScavengerNC4.png" name="Scavenger Platinum" />
+      <Merit empire="NC" level="5" counters="3000"  streak="6"  imagepath="ScavengerNC5.png" name="Scavenger Titanium" />
+      <Merit empire="NC" level="6" counters="5000"  streak="10" imagepath="ScavengerNC6.png" name="Scavenger Auraxium" />
+      <Merit empire="TR" level="1" counters="15"    streak="0"  imagepath="ScavengerTR1.png" name="Scavenger Bronze" />
+      <Merit empire="TR" level="2" counters="100"   streak="0"  imagepath="ScavengerTR2.png" name="Scavenger Silver" />
+      <Merit empire="TR" level="3" counters="1000"  streak="0"  imagepath="ScavengerTR3.png" name="Scavenger Gold" />
+      <Merit empire="TR" level="4" counters="2000"  streak="4"  imagepath="ScavengerTR4.png" name="Scavenger Platinum" />
+      <Merit empire="TR" level="5" counters="3000"  streak="6"  imagepath="ScavengerTR5.png" name="Scavenger Titanium" />
+      <Merit empire="TR" level="6" counters="5000"  streak="10" imagepath="ScavengerTR6.png" name="Scavenger Auraxium" />
+      <Merit empire="VS" level="1" counters="15"    streak="0"  imagepath="ScavengerVS1.png" name="Scavenger Bronze" />
+      <Merit empire="VS" level="2" counters="100"   streak="0"  imagepath="ScavengerVS2.png" name="Scavenger Silver" />
+      <Merit empire="VS" level="3" counters="1000"  streak="0"  imagepath="ScavengerVS3.png" name="Scavenger Gold" />
+      <Merit empire="VS" level="4" counters="2000"  streak="4"  imagepath="ScavengerVS4.png" name="Scavenger Platinum" />
+      <Merit empire="VS" level="5" counters="3000"  streak="6"  imagepath="ScavengerVS5.png" name="Scavenger Titanium" />
+      <Merit empire="VS" level="6" counters="5000"  streak="10" imagepath="ScavengerVS6.png" name="Scavenger Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Sniping" type="Combat">
+      <Merit empire="ALL" level="1" counters="200"  streak="2"  imagepath="Sniper1.png" name="Sniper Qualification" />
+      <Merit empire="ALL" level="2" counters="450"  streak="3"  imagepath="Sniper2.png" name="Sniper Bronze" />
+      <Merit empire="ALL" level="3" counters="750"  streak="4"  imagepath="Sniper3.png" name="Sniper Silver" />
+      <Merit empire="ALL" level="4" counters="1200" streak="5"  imagepath="Sniper4.png" name="Sniper Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="6"  imagepath="Sniper5.png" name="Sniper Platinum" />
+      <Merit empire="ALL" level="6" counters="3000" streak="8"  imagepath="Sniper6.png" name="Sniper Titanium" />
+      <Merit empire="ALL" level="7" counters="4500" streak="10" imagepath="Sniper7.png" name="Sniper Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Special Assault" type="Combat">
+      <Merit empire="ALL" level="1" counters="200"  streak="2"  imagepath="SpecialAssault1.png" name="Special Assault Qualification" />
+      <Merit empire="ALL" level="2" counters="400"  streak="3"  imagepath="SpecialAssault2.png" name="Special Assault Bronze" />
+      <Merit empire="ALL" level="3" counters="700"  streak="4"  imagepath="SpecialAssault3.png" name="Special Assault Silver" />
+      <Merit empire="ALL" level="4" counters="1200" streak="5"  imagepath="SpecialAssault4.png" name="Special Assault Gold" />
+      <Merit empire="ALL" level="5" counters="2000" streak="8"  imagepath="SpecialAssault5.png" name="Special Assault Platinum" />
+      <Merit empire="ALL" level="6" counters="3000" streak="10" imagepath="SpecialAssault6.png" name="Special Assault Titanium" />
+      <Merit empire="ALL" level="7" counters="5000" streak="12" imagepath="SpecialAssault7.png" name="Special Assault Auraxium" />
+      <GroupDescription></GroupDescription>
+    </Group>
+    <Group name="Weapon Citation" type="Combat">
+      <Merit empire="ALL" level="1" imagepath="WeaponsCitation1.png" name="Weapons Citation Specialist">
+        <PreReq image="BasicWeapons1.png" name="Basic Weapons Qualification" />
+        <PreReq image="Rifleman1.png" name="Rifleman Qualification" />
+        <PreReq image="HeavyWeapons1.png" name="Heavy Weapons Qualification" />
+        <PreReq image="SpecialAssault1.png" name="Special Assault Qualification" />        
+        <PreReq image="AntiArmor1.png" name="Anti-Armor Qualification" />
+        <PreReq image="Sniper1.png" name="Sniper Qualification" />
+      </Merit>
+      <Merit empire="ALL" level="2" imagepath="WeaponsCitation2.png" name="Weapons Citation Expert">
+        <PreReq image="BasicWeapons2.png" name="Basic Weapons Bronze" />
+        <PreReq image="Rifleman2.png" name="Rifleman Bronze" />
+        <PreReq image="HeavyWeapons2.png" name="Heavy Weapons Bronze" />
+        <PreReq image="SpecialAssault2.png" name="Special Assault Bronze" />        
+        <PreReq image="AntiArmor2.png" name="Anti-Armor Bronze" />
+        <PreReq image="Sniper2.png" name="Sniper Bronze" />
+      </Merit>
+      <Merit empire="ALL" level="3" imagepath="WeaponsCitation3.png" name="Weapons Citation Master">
+        <PreReq image="BasicWeapons3.png" name="Basic Weapons Silver" />
+        <PreReq image="Rifleman3.png" name="Rifleman Silver" />
+        <PreReq image="HeavyWeapons3.png" name="Heavy Weapons Silver" />
+        <PreReq image="SpecialAssault3.png" name="Special Assault Silver" />
+        <PreReq image="AntiArmor3.png" name="Anti-Armor Silver" />
+        <PreReq image="Sniper3.png" name="Sniper Silver" />
+      </Merit>
+      <GroupDescription></GroupDescription>
+    </Group>
+  </Category>
+</MeritData>
