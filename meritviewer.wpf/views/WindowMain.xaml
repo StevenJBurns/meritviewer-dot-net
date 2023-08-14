@@ -1,0 +1,167 @@
+<Window
+  xmlns="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:a="clr-namespace:Ara.MeritViewer"
+  xmlns:vm="clr-namespace:Ara.MeritViewer.ViewModel"
+  x:Class="Ara.MeritViewer.View.WindowMain"
+  WindowStartupLocation="CenterScreen"
+  Icon="..\Images\PlanetSide.ico"
+  MinHeight="144" MinWidth="288"
+  Height="600" Width="800"
+  x:Name="winMain"
+  >
+  <Window.DataContext>
+    <vm:WindowMainViewModel />
+  </Window.DataContext>
+  <Window.Resources>
+    <Color x:Key="colorNC" A="255" R="000" B="128" G="000" />
+    <Color x:Key="colorTR" A="255" R="128" B="000" G="000" />
+    <Color x:Key="colorVS" A="255" R="128" B="128" G="000" />
+    <a:EmpireColorConverter x:Key="EmpireConverter" />
+    <HierarchicalDataTemplate DataType="Category" ItemsSource="{Binding Elements[Group]}">
+      <TextBlock x:Name="textBlock" Padding="2" FontWeight="Bold" FontSize="16" Text="{Binding Attribute[name].Value}" />
+    </HierarchicalDataTemplate>
+    <HierarchicalDataTemplate DataType="Group" ItemsSource="{Binding Elements[Merit]}">
+      <TextBlock x:Name="textBlock" Padding="2" FontWeight="Bold" FontSize="14" Text="{Binding Attribute[name].Value}" />
+    </HierarchicalDataTemplate>
+    <DataTemplate DataType="Merit">
+      <TextBlock x:Name="textBlock" Padding="2" FontSize="12" Text="{Binding Attribute[name].Value}" />
+    </DataTemplate>
+  </Window.Resources>
+  <Window.Background>
+    <LinearGradientBrush StartPoint="0.0, 0.0" EndPoint="0.0, 1.0">
+      <GradientStop Offset="0.20" Color="Black" />
+      <GradientStop Offset="0.80" x:Name="themecolorstop" Color="{Binding CurrentEmpire, Converter={StaticResource EmpireConverter}}" />
+      <GradientStop Offset="1.00" Color="Black" />
+    </LinearGradientBrush>
+  </Window.Background>
+  <Grid>
+    <VisualStateManager.VisualStateGroups>
+      <VisualStateGroup x:Name="vsgEmpireState">
+        <VisualStateGroup.Transitions>
+          <VisualTransition GeneratedDuration="0:0:0" />
+          <VisualTransition GeneratedDuration="0:0:1" To="VisualStateNC">
+            <VisualTransition.GeneratedEasingFunction>
+              <QuadraticEase EasingMode="EaseOut" />
+            </VisualTransition.GeneratedEasingFunction>
+          </VisualTransition>
+          <VisualTransition GeneratedDuration="0:0:1" To="VisualStateTR">
+            <VisualTransition.GeneratedEasingFunction>
+              <QuadraticEase EasingMode="EaseOut" />
+            </VisualTransition.GeneratedEasingFunction>
+          </VisualTransition>
+          <VisualTransition GeneratedDuration="0:0:1" To="VisualStateVS">
+            <VisualTransition.GeneratedEasingFunction>
+              <QuadraticEase EasingMode="EaseOut" />
+            </VisualTransition.GeneratedEasingFunction>
+          </VisualTransition>
+          <VisualTransition GeneratedDuration="0" To="VisualStateALL" />
+          </VisualStateGroup.Transitions>
+            <VisualState x:Name="VisualStateNC">
+              <Storyboard>
+                <ColorAnimation To="DarkBlue" Storyboard.TargetName="winMain" Storyboard.TargetProperty="(Panel.Background).(GradientBrush.GradientStops)[1].(GradientStop.Color)" />
+              </Storyboard>
+            </VisualState>
+            <VisualState x:Name="VisualStateTR">
+              <Storyboard>
+                <ColorAnimation To="DarkRed" Storyboard.TargetName="winMain" Storyboard.TargetProperty="(Panel.Background).(GradientBrush.GradientStops)[1].(GradientStop.Color)" />
+              </Storyboard>
+            </VisualState>
+            <VisualState x:Name="VisualStateVS">
+              <Storyboard>
+                <ColorAnimation To="Purple" Storyboard.TargetName="winMain" Storyboard.TargetProperty="(Panel.Background).(GradientBrush.GradientStops)[1].(GradientStop.Color)" />
+              </Storyboard>
+            </VisualState>
+            <VisualState x:Name="VisualStateALL">
+              <Storyboard>
+                <ColorAnimation To="Silver" Storyboard.TargetName="winMain" Storyboard.TargetProperty="(Panel.Background).(GradientBrush.GradientStops)[1].(GradientStop.Color)" />
+              </Storyboard>
+            </VisualState>
+          </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="100*" />
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Column="0" Grid.Row="0" LastChildFill="False" ClipToBounds="True">
+          <DockPanel.Resources>
+            <Style TargetType="{x:Type Button}" x:Key="StyledButtonMain">
+              <Setter Property="Margin" Value="4" />
+              <Setter Property="Opacity" Value="0.5" />
+              <Setter Property="FontSize" Value="14" />
+              <Setter Property="FontWeight" Value="Bold" />
+              <Setter Property="Effect">
+                <Setter.Value>
+                  <DropShadowEffect ShadowDepth="4" BlurRadius="0" Color="Black" />
+                </Setter.Value>
+              </Setter>
+             <Style.Triggers>
+               <EventTrigger RoutedEvent="UIElement.MouseEnter">
+                 <BeginStoryboard>
+                   <Storyboard>
+                     <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1.00" Duration="0:0:0.25" />
+                    </Storyboard>
+                 </BeginStoryboard>
+               </EventTrigger>
+               <EventTrigger RoutedEvent="UIElement.MouseLeave">
+                 <BeginStoryboard>
+                   <Storyboard>
+                     <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0.75" Duration="0:0:0.25" />
+                   </Storyboard>
+                 </BeginStoryboard>
+               </EventTrigger>
+             </Style.Triggers>
+           </Style>
+         </DockPanel.Resources>
+         <StackPanel DockPanel.Dock="Right" Orientation="Vertical" VerticalAlignment="Center" Width="Auto">
+           <StackPanel.Resources>
+             <Style TargetType="{x:Type Button}" BasedOn="{StaticResource StyledButtonMain}">
+               <Setter Property="Height" Value="24" />
+               <Setter Property="Width" Value="96" />
+               <Setter Property="Opacity" Value="0.75" />
+               <Style.Triggers>
+                 <Trigger Property="IsMouseOver" Value="True">
+                   <Setter Property="Opacity" Value="1.0" />
+                 </Trigger>
+               </Style.Triggers>
+             </Style>
+           </StackPanel.Resources>
+          <Button x:Name="btnDisplay" Content="Display" Click="ButtonClick_Display" />
+          <Button x:Name="btnOptions" Content="Options" Click="ButtonClick_Options" />
+          <Button x:Name="btnAbout" Content="About" Click="ButtonClick_About" />
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" Margin="16" >
+        <StackPanel.Resources>
+          <Style TargetType="{x:Type Button}">
+            <Setter Property="Margin" Value="4" />
+          </Style>
+          <Style TargetType="{x:Type Image}">
+            <Setter Property="Height" Value="64" />
+            <Setter Property="Width" Value="64"  />
+            <Setter Property="Opacity" Value="0.75" />
+            <Style.Triggers>
+              <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Opacity" Value="1.0" />
+              </Trigger>
+            </Style.Triggers>
+          </Style>
+        </StackPanel.Resources>
+        <Button Command="{Binding ChangeEmpireCommand}">
+          <Image Source="../Images/NC.png" />
+        </Button>
+        <Button Command="{Binding ChangeEmpireCommand}">
+          <Image Source="../Images/TR.png" />
+        </Button>
+        <Button Command="{Binding ChangeEmpireCommand}">
+          <Image Source="../Images/VS.png" />
+        </Button>
+      </StackPanel>
+    </DockPanel>
+    <DockPanel Grid.Row="1" HorizontalAlignment="Left" LastChildFill="True">
+      <TreeView DockPanel.Dock="Left" x:Name="tvw" Margin="16" Width="320" ItemsSource="{Binding Elements[Category]}" />
+    </DockPanel>
+  </Grid>
+</Window>

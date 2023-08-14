@@ -1,0 +1,11 @@
+﻿<Window xmlns="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Ara.MeritViewer.View.WindowDisplay"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="SingleBorderWindow"
+        Icon="../Images/PlanetSide.ico"
+        Height="288" Width="384"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize"
+        Background="Black"
+        Title="Options..." /> 
